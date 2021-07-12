@@ -75,6 +75,7 @@ a {
 .navigation {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   font-weight: 300;
   a {
     color: #888;
@@ -252,12 +253,22 @@ a {
   color: var(--text-secondary-color);
 }
 .site-footer {
+  position:sticky;
   text-align: center;
   margin: 90px 0 16px;
   color: #666;
   a {
     font-weight: 700;
   }
+}
+.site-footer .footer {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.site-footer .footer div{
+  max-width: 250px;
+
 }
 .form-container {
   background-color: var(--contact-bg);

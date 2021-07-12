@@ -2,6 +2,7 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
+import Footer from "./footer";
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -24,9 +25,9 @@ export default ({ children }) => {
         <Navigation />
       </header>
       {children}
-      <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
-      </footer>
+      <div className="site-footer">
+<Footer/>     
+ </div>
     </div>
   )
 }
