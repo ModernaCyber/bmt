@@ -6,7 +6,7 @@ import Menu from "./menu";
 export default (props) => (
   <nav className="navigation"> 
   <Menu/>
-    <Link to="/contact">Contact</Link>
+    <Link to="/contact"></Link>
     <ThemeChanger/>
   </nav>
   

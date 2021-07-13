@@ -49,6 +49,8 @@ body.dark {
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
+
+
 }
 /* System Fonts as used by Medium and WordPress */
 body {
@@ -74,8 +76,8 @@ a {
 }
 .navigation {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  
+  justify-content: space-between;
   font-weight: 300;
   a {
     color: #888;
@@ -83,7 +85,7 @@ a {
     margin: 0 8px 0;
     &[aria-current] {
       color: var(--primary-color);
-      font-weight: 700;
+      font-weight: 900;
     }
     &:hover {
       color: var(--primary-color);
@@ -94,27 +96,90 @@ a {
   }
 }
 .site-header {
+  position:relative;
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
   background: var(--site-header);
   margin-bottom: 32px;
   align-items: center;
+  height:60px;
+  text-transform: uppercase;
+
 }
+.site-header .place{
+  justify-content: center;
+  margin:0;
+  padding:0;
+}
+.site-header .place .met-title{
+  justify-content: center;
+  font-size: 1.6rem;
+
+}
+
+.site-header .place .met-title :hover{
+  justify-content: center;
+  font-size: 1.4rem;
+  text-decoration: none;
+
+}
+.site-title  {
+  display:flex;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 900;
+  padding-right: 5%;
+}
+
 .site-title a {
+  margin-left: 20px;
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 900;
   text-transform: uppercase;
+  justify-content: flex-end;
 }
 .hero-header {
+  position: relative;
+  height:400px;
+  display:flex;
+  flex-direction: column;
   padding: 0 0 64px;
-  max-width: 980px;
+  max-width: 100%;
+  border-radius: 15px;
+  justify-content: center;
+  background-color:#ABC0BA;
+  align-items: center;
+  background:url(
+    https://images.unsplash.com/photo-1587376786830-e171dbdc1477?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80
+   );
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-position-y: 50%;
+  color: var(--primary-text-color) ;
+  
 }
+.hero-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #3a5764;
+  mix-blend-mode: overlay;
+  border-radius: 15px;
+}
+
 .headline {
+  padding-left: 20px;
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-wrap:wrap;
 }
 .button {
   padding: 18px 27px;
@@ -144,10 +209,23 @@ a {
   }
 }
 .primary-content {
-  font-size: 18px;
+  font-size: 1.8rem;
   margin-bottom: 32px;
-  line-height: 1.5;
-  font-weight: 300;
+  overflow:hidden;
+  font-weight: 600;
+  padding:30px;
+  justify-content: center;
+
+}
+.menu ul{
+  display:flex;
+  align-items: center;
+  list-style: none;
+}
+.menu ul li{
+  padding-left: 30px;
+  
+
 }
 .post {
   padding: 0;
@@ -270,6 +348,34 @@ a {
   max-width: 250px;
 
 }
+.footer-links{
+display:flex;
+flex-direction: column;
+padding:0 90px;
+
+}
+.social {
+   display:flex;
+   flex-direction: column;
+   align-items:space-between;
+   padding-bottom: 20px;
+   justify-content: center;
+   min-width: 250px;
+}
+.social-icons{
+  display:flex;
+
+}
+.icons{
+  padding-left: 10px;
+  width: 100%;
+}
+.icons img{
+  width:30px;
+  height:30px;
+ 
+}
+
 .form-container {
   background-color: var(--contact-bg);
   padding: 32px;
@@ -416,3 +522,4 @@ body.light {
     top: 8px;
     left: 2px
 }
+

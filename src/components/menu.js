@@ -2,22 +2,14 @@ import React from "react";
 import { Link } from "gatsby";
 
 const Menu = () => (
-  <nav className="navigation" id="top">
+  <nav className="menu" id="top">
     <ul>
+      
       <li>
-        <Link to="/contact">Contact</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
-      </li>
-      <li>
-        <Link to="/contact">Contact</Link>
-      </li>
-      <li>
-        <Link to="/contact">Contact</Link>
-      </li>
-      <li>
-        <Link to="/contact">Contact</Link>
+        <Link to="/about-us">About</Link>
       </li>
     </ul>
   </nav>
