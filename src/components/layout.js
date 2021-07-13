@@ -3,6 +3,8 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
 import Footer from "./footer";
+import Subscribe from "./subscribe";
+
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -39,6 +41,7 @@ export default ({ children }) => {
 
       </div>
       <div className="site-footer">
+        <Subscribe/>
 <Footer/>   
 <p>
         &copy; {new Date().getFullYear()} Copyright &bull; Designed{" "}
