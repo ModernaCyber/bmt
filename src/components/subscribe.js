@@ -6,7 +6,7 @@ const Subscribe = (
   return (
       <div className="subscribe" style={{ paddingBottom: "30px"}}>
          
-          <form className="form-container" action="" method="post"> <div><p>
+          <form className="form-container" action="https://getform.io/f/ff65b37d-7840-424b-b240-3a464ede432f" method="POST" onsubmit="return false"> <div><p>
               Subscribe today and be among the first to Receive the upcoming <i>Bmw maintenance e-book.</i>
         </p></div>
             <div>
