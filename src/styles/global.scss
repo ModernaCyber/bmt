@@ -76,7 +76,6 @@ a {
 }
 .navigation {
   display: flex;
-  
   justify-content: space-between;
   font-weight: 300;
   a {
@@ -416,11 +415,42 @@ padding:0 90px;
 }
 /* Portrait and Landscape */
 @media only screen 
+and (max-width: 480px) {
+  .site-wrapper{
+    width:100%;
+    padding:15px;
+  }
+.headline{
+  font-weight:600;
+  font-size:1.4rem;
+  padding:5px;
+}
+  .primary-content {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    overflow:hidden;
+    font-weight: 280;
+    justify-content: center;
+}}
+@media only screen 
 and (min-width: 768px) {
 .grids {
   grid-template-columns: 1fr 1fr;
-}
-}
+}}
+@media only screen 
+and (max-width: 768px) {
+  .site-wrapper{
+    width:100%;
+    padding:15px;
+  }
+.primary-content {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  overflow:hidden;
+  font-weight: 400;
+  padding:30px;
+  justify-content: center;
+}}
 @media only screen 
   and (min-width: 1024px) {
   .grids {
