@@ -20,10 +20,10 @@ const ContactPage = ({
           <p>Let Us help you with your Bmw maintence &rarr;</p>
         </div>
         <div>
-          <form className="form-container" action="https://getform.io/f/ff65b37d-7840-424b-b240-3a464ede432f" method="POST" onsubmit="return false">
+          <form className="form-container" action="https://api.getform.io/v1/forms/ff65b37d-7840-424b-b240-3a464ede432f?token=m9X03TcXRbmAh19p3yGTAdOTvDPRgKMyZZ2dYjsoyIWv04g2JIwVJKhEvhox" method="post">
             <div>
               <label htmlFor="w3lName">Name</label>
-              <input type="text" name="w3lName" id="w3lName"/>
+              <input type="text" name="w3lName" id="w3lName" />
             </div>
             <div>
               <label htmlFor="w3lSender">Email</label>
