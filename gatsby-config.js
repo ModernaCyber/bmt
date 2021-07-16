@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `BMW Essential Maintenance TIps`,
+        short_name: `BEMT`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,

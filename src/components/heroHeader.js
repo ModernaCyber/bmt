@@ -24,7 +24,7 @@ export default () => (
         />
         <div><Link to='/contact' className="button -primary">Get in touch &rarr;</Link></div>
         <div className="overlay"></div>
-</div>
+      </div>
     )}
   />
 )
