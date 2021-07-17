@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /TakingCareOFYourBMW
-date: 2020-02-20T14:59:36.571Z
+date: 2020-11-08T14:59:36.571Z
 title: MaintenanceTip#1
 thumbnail: /assets/image-5.jpg
 ---

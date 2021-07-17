@@ -69,11 +69,31 @@ a {
 .site-wrapper {
   padding: 32px;
   padding-top: 0;
+  width:90%;
   max-width: 1140px;
   margin: 0 auto;
   img {
     max-width: 100%;
   }
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  margin-left:0;
+  margin-right: 0;
+  background:var(--background);
+  margin-top: -32px;
+  margin-bottom: 20px;
+  align-items: center;
+  height:100px;
+  width: 100%;
+  text-transform: uppercase;
+  z-index: 100;
+  padding: 20px;
+  padding-top: 30px;
+  left:-2px;
+
 }
 .navigation {
   display: flex;
@@ -94,25 +114,6 @@ a {
       margin-right: 0;
     }
   }
-}
-.site-header {
-  position:sticky;
-  display: flex;
-  justify-content: space-between;
-  margin-left:-32px;
-  padding :10px;
-  margin-right: -32px;
-  background:var(--background);
-  margin-top: 0;
-  margin-bottom: 20px;
-  align-items: center;
-  height:110px;
-  min-width: 100%;
-  text-transform: uppercase;
-  z-index: 100;
-  top:0;
-  left:0;
-
 }
 .site-header .place{
   width:100px;
@@ -142,8 +143,8 @@ a {
   display:flex;
   color: var(--primary-color);
   text-decoration: none;
-  font-weight: 900;
-  padding-right: 5%;
+  font-weight: 600;
+  padding-right: 20%;
 }
 
 .site-title a {
@@ -240,6 +241,14 @@ a {
   padding-left: 30px;
   
 
+}
+.all-about-bmws{
+  height:40px;
+  margin-top:30px;
+  font-weight: 900;
+  align-items: center;
+  background: rgb(132, 92, 241);
+  padding-left: 10%;
 }
 .post {
   padding: 0;

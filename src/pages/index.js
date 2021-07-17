@@ -28,7 +28,8 @@ const IndexPage = ({
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
       <HeroHeader/>
-      {/*<h2>Blog Posts &darr;</h2>*/}
+      {<h2 className="all-about-bmws"
+      >All About BMWs &darr;</h2>}
       <div className="grids">
         {Posts}
       </div>
