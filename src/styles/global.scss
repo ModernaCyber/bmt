@@ -80,8 +80,7 @@ a {
 .site-header {
   display:flex;
   justify-content: space-between;
-  /*background:var(--background);*/
-  background: red;
+  background:var(--background);
   align-items: center;
   height:100px;
   width: 100%;
