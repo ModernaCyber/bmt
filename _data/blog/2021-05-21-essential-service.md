@@ -9,6 +9,21 @@ thumbnail: /assets/image-6.jpg
 # Most Important Service Items
 It’s inevitable that you’ll have to bring your automobile into the shop at some point. However, by bringing in your BMW vehicle for regular BMW repair by a professional, you can avoid costly emergency services later. You’ll also keep your car running faster, better, and longer than it otherwise would.
 ###  Engine—First things first: 
+
+<div class ="container"><!__![](/assets/engine1.webp)__></div>
+<style>
+.container {
+    width:98%;
+    padding-bottom:100%;
+    background-image:url(/assets/engine1.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-x: center;
+    border-radius: 20px;
+    margin:20px 0;
+}
+
+</style>
 Your car’s engine is the heart of the car; what it keeps it going. With any sort of engine problems, you face a risk of danger, your car is not functioning at its optimal level, or your car is rendered useless. I.e. even small engine issues can equal BIG problems. Have your engine checked a few times a year. At the same time, have your transmission checked. Otherwise, you may find yourself stuck on a busy road this summer, sweltering under the Austin sun.
 ###  Brakes
 While your BMW’s engine is necessary to keep going, your BMW’s brakes are essential to stopping. Checking your brakes should be a part of your regular basic car maintenance. Healthy brakes are key to good safety. Here’s where the assistance of a good, professional mechanic is extra important. Our resident BMW repair expert recommends flushing the brake system every two years or so.
