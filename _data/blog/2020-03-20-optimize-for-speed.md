@@ -1,11 +1,11 @@
 ---
 template: BlogPost
-path: /....
+path: /optimize-for-speed
 date: 2021-03-20T14:59:36.571Z
-title: .....
+title: Optimize your car for speed
 thumbnail: /assets/main.webp
 ---
-# What's the best way to purchase a used BMW?
+# What's the best way to improve my car performance?
 Well, i get this question often,
 
 ## Did I mention we have comfy chairs?
@@ -29,7 +29,7 @@ It's a fez. I wear a fez now. Fezes are cool. You know how I sometimes have real
 <style>
 .container {
     width:98%;
-    padding-bottom:100%;
+    padding-bottom:73%;
     background-image:url(/assets/bmw-car.webp);
     background-repeat:no-repeat;
     background-size:cover;
