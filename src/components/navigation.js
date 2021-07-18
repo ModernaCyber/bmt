@@ -5,9 +5,10 @@ import Menu from "./menu";
 
 export default (props) => (
   <nav className="navigation"> 
-  <Menu/>
-    <Link to="/contact"></Link>
-    <ThemeChanger/>
+   <div><Menu/></div> <div>    <Link to="/contact"></Link>
+</div>
+<div>    <ThemeChanger/>
+</div>
   </nav>
   
 )
