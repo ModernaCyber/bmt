@@ -15,7 +15,7 @@ Well, I get this question often,and the answer has been the same .You are your o
 <style>
 .container {
     width:98%;
-    padding-bottom:100%;
+    padding-bottom:70%;
     background-image:url(/assets/325i_bmw.jpg);
     background-repeat:no-repeat;
     background-size:cover;

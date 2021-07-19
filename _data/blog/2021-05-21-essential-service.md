@@ -14,7 +14,7 @@ It’s inevitable that you’ll have to bring your automobile into the shop at s
 <style>
 .container {
     width:98%;
-    padding-bottom:100%;
+    padding-bottom:70%;
     background-image:url(/assets/engine1.webp);
     background-repeat:no-repeat;
     background-size:cover;
