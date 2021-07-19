@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-delog",
-  "description": "A simplified blog for developers and designer. This starter built with Gatsby and Netlify CMS",
-  "author": "W3Layouts Team <info@w3layouts.com>",
+  "name": "Bmw-Essential-Maintenance-Tips",
+  "description": "A simplified blog for Bmw owners, Fans and enthusiasts who are inclined to explore latest updates, news and performance tuning tips.",
+  "author": "modernacyber <modernacyber@gmail.com>",
   "version": "1.6.0",
   "license": "MIT",
   "bugs": {
@@ -31,14 +31,18 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/W3Layouts/gatsby-starter-delog#readme",
+  "homepage": "https://bmwemt.info",
   "keywords": [
-    "gatsby",
-    "netlify cms"
+    "Bmw",
+    "Bmw maintenance",
+    "Bmw maintenance tips",
+    "Bmw performance tuning",
+    "Bmw news",
+    "Bmw updates"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/W3Layouts/gatsby-starter-delog.git"
+    "url": "git+https://github.com/KASH008/bmt.git"
   },
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",

@@ -3,8 +3,9 @@ template: BlogPost
 path: /six-performance-improvement-tips
 date: 2020-11-08T14:59:36.571Z
 title: Six performance improvement Tips
-thumbnail: /assets/image-5.jpg
+thumbnail: /assets/01_hero_3.jpg
 ---
+
 
 # Six Tips to Improve Bmw performance.
 These modern models are quite fast right of the showroom but that doesn't prevent us from trying to squeeze every bit of performance out.
@@ -15,12 +16,12 @@ In terms of performance add-ons, an engine tuner is simply the best investment y
 Factory intake setups are generally quite effective, but there are some cases where an engine will benefit from an aftermarket intake. These setups utilize a free-flowing air filter, allowing the engine to breathe easier.
 # 3.Exhaust Upgrades. 
 Upgrading your vehicle's exhaust system from the cat back - or in the case of turbocharged vehicles, upgrading the downpipe AND the system behind - is a simple yet effective way to increase engine performance.
-<div class ="container"><!__![](/assets/1049905_x800.webp)__></div>
+<div class ="container"><!__![](/assets/exhaust.webp)__></div>
 <style>
 .container {
     width:98%;
     padding-bottom:73%;
-    background-image:url(/assets/bmw-car.webp);
+    background-image:url(/assets/exhaust.webp);
     background-repeat:no-repeat;
     background-size:cover;
     background-position-x: center;
@@ -42,7 +43,6 @@ This requires rebuilding the engine with performance parts such as beefed up cyl
 # 6.Forced Induction.
 If your vehicle’s engine is naturally aspirated, forced induction will provide some hefty power gains. Forced induction can come in the form of a turbocharger or a supercharger.
  
-
 
 
 
