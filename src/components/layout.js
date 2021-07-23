@@ -24,7 +24,8 @@ export default ({ children }) => {
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content={data.site.siteMetadata.keywords}/>
-      <div style={{display:"none"}}>9cfb51a91aef2b01886be9360c776e4cbc7ac8bf</div>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9428197784618612"
+     crossorigin="anonymous"></script>
 
         <div className ="place">
                          
