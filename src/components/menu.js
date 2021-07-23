@@ -1,8 +1,22 @@
 import React from "react";
 import { Link } from "gatsby";
 
-const Menu = () => (
-  <nav className="menu" id="top">
+class Menu extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {date: new Date()};
+  }
+
+  componentDidMount() {
+  }
+
+  componentWillUnmount() {
+  }
+
+  render() {
+    return (
+      <div>
+         <nav className="menu" id="top">
     <ul>
       
       <li>
@@ -13,5 +27,11 @@ const Menu = () => (
       </li>
     </ul>
   </nav>
-);
-export default Menu;
+      </div>
+    );
+  }
+};
+export default Menu
+
+
+

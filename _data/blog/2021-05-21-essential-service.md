@@ -25,6 +25,7 @@ It’s inevitable that you’ll have to bring your automobile into the shop at s
 
 </style>
 Your car’s engine is the heart of the car; what it keeps it going. With any sort of engine problems, you face a risk of danger, your car is not functioning at its optimal level, or your car is rendered useless. I.e. even small engine issues can equal BIG problems. Have your engine checked a few times a year. At the same time, have your transmission checked. Otherwise, you may find yourself stuck on a busy road this summer, sweltering under the Austin sun.
+
 ###  Brakes
 While your BMW’s engine is necessary to keep going, your BMW’s brakes are essential to stopping. Checking your brakes should be a part of your regular basic car maintenance. Healthy brakes are key to good safety. Here’s where the assistance of a good, professional mechanic is extra important. Our resident BMW repair expert recommends flushing the brake system every two years or so.
 This is because brake fluid is hydroscopic and will absorb moisture from the air. Over time, this absorption dangerously contaminates the brake fluid, eventually causing brake system failures. Another thing to have your LAW mechanic look at at the same time are your brake pads. Dirty brake pads can cause annoying squeaking and other.

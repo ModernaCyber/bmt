@@ -5,7 +5,6 @@ import 'prismjs/themes/prism-okaidia.css';
 import Footer from "./footer";
 import Subscribe from "./subscribe";
 
-
 export default ({ children }) => {
   const data = useStaticQuery(
     graphql`
@@ -25,6 +24,7 @@ export default ({ children }) => {
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content={data.site.siteMetadata.keywords}/>
+      <div style={{display:"none"}}>9cfb51a91aef2b01886be9360c776e4cbc7ac8bf</div>
 
         <div className ="place">
                          
