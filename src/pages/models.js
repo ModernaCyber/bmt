@@ -3,9 +3,9 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import HeroHeader from "../components/heroHeader"
+import {Link} from "gatsby"
 
-const IndexPage = ({
+const ModelsPage = ({
   data: {
     site,
     allMarkdownRemark: { edges },
@@ -27,9 +27,16 @@ const IndexPage = ({
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
-      <HeroHeader/>
+      <div className="hero-header  model-header" >
+        <div className="headline" id="top">
+          BMW MODELS
+        </div>
+        <div  className="primary-content">BMW ALL models DESCRIPTION </div>
+        <div><Link to='/contact' className="button -primary">Get in touch &rarr;</Link></div>
+        <div className="overlay"></div>
+      </div>
       {<h2 className="all-about-bmws"
-      >All About BMWs &darr;</h2>}
+      >All BMW Models&darr;</h2>}
       <div className="grids">
         {Posts}
       </div>
@@ -37,16 +44,16 @@ const IndexPage = ({
   )
 }
 
-export default IndexPage
+export default ModelsPage
 export const pageQuery = graphql`
-  query indexPageQuery {
+  query modelsPageQuery {
     site {
       siteMetadata {
         title
         description
       }
     }
-    allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(blog)/"}}) {
+    allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(models)/"}}) {
       edges {
         node {
           id
