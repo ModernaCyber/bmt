@@ -50,8 +50,6 @@ body.dark {
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
-
-
 }
 /* System Fonts as used by Medium and WordPress */
 body {
@@ -60,7 +58,6 @@ body {
   background-color: var(--background);
   color: var(--text-color);
 }
-
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -79,7 +76,6 @@ a {
     max-width: 100%;
   }
 }
-
 .site-header {
   position: relative;
   display:flex;
@@ -91,7 +87,6 @@ a {
   text-transform: uppercase;
   z-index: 100;
   margin:0 0 32px  0; 
-
 }
 .navigation {
   position:relative;
@@ -116,8 +111,7 @@ a {
     &:last-child {
       margin-left:auto;
     }
-  }
-  
+  }  
 }
 .menu1{
   justify-content: center;
@@ -128,46 +122,12 @@ a {
   margin-left:20px;
   cursor:pointer; 
 }
-
-
 .logo{
   width: 100px;
   height: 100px;
   align-items: center;
   justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero-header {
   background:url(
     https://images.unsplash.com/photo-1587376786830-e171dbdc1477?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80
@@ -285,7 +245,26 @@ a {
   font-weight: 600;
   padding:30px;
   justify-content: center;
+}
+.miniContent{
+  height: auto;
+  display:flex;
+  font-weight: 500;
+  justify-content: space-evenly;
+  a {
+    color: #888;
+    text-decoration: none;
+    margin: 0 8px 0;
+    margin-left: auto;
+    &[aria-current] {
+      color: var(--primary-color);
+      font-weight: 500;
+    }
+    &:hover {
+      color: var(--primary-color);
+    }
 
+  }
 }
 .menu ul{
   display:flex;
@@ -294,8 +273,6 @@ a {
 }
 .menu ul li{
   padding-left: 30px;
-  
-
 }
 .all-about-bmws{
   height:auto;
@@ -451,9 +428,7 @@ padding:0 90px;
 .icons img{
   width:30px;
   height:30px;
- 
 }
-
 .form-container {
   background-color: var(--contact-bg);
   padding: 32px;
@@ -522,7 +497,6 @@ and (max-width: 480px) {
 }}
 @media only screen 
 and (min-width: 768px) {
-
 .two-grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -552,15 +526,11 @@ and (max-width: 768px) {
   padding:30px;
   justify-content: center;
 }}
-
 @media only screen 
   and (max-width: 558px) {
   .grids {
     grid-template-columns: 1fr;
   }}
-
-
-
 @media only screen 
   and (min-width: 1024px) {
   .grids {
@@ -576,7 +546,6 @@ and (max-width: 768px) {
     grid-template-columns: 1fr 1fr ;
     grid-gap: 64px;
   }
-
 }
 // theme-changer
 .theme-changer { 
@@ -667,3 +636,17 @@ body.light {
     left: 2px
 }
 
+.spare-ads{
+  display:flex;
+  width: 100%;
+  height:auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.spare-ads iframe{
+  margin: 8px 8px ;
+  width:20%;
+}
+
+// style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" 

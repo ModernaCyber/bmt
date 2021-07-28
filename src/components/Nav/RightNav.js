@@ -8,10 +8,25 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   li {
     padding: 18px 10px;
+    color: #888;
+    text-decoration: none;
+    margin: 0 4px 0;
+    align-items:center;
+    justify-content:center;
+    &[aria-current] {
+      color: var(--primary-color);
+      font-weight: 400;
+      font-size:1.3rem;
+    }
+    &:hover {
+      color: var(--primary-color);
+    }
+
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
+    align-items:center;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
@@ -42,11 +57,16 @@ const RightNav = ({ open }) => {
         <Link to="/about-us">About-us</Link>
       </li>
       <li>
-        <Link to="/models">All-Bmw Models</Link>
+        <Link to="/models">Models</Link>
       </li>
      
       <li>
-        <Link to="/spares">Spare-parts</Link>
+        <Link to="/spares">SpareParts</Link>
+      </li>
+      <li>
+        <Link to="/dashboard">Dashboard</Link>
+      </li> <li>
+        <Link to="/courses">Courses</Link>
       </li>
       <li>
         <Link to="/cycles">Motorcycles</Link>

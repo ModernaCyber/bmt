@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Navbar from './Nav/Navbar';
 import 'prismjs/themes/prism-okaidia.css';
 import Footer from "./footer";
@@ -27,15 +27,17 @@ export default ({ children }) => {
       <meta name="keywords" content={data.site.siteMetadata.keywords}/>
       <Navbar />
       <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      </header>
+     </header>
       {children}
       <div className="card google-ads">
       </div>
       <div className="site-footer">
         <Subscribe/>
         <Footer/>   
-      <p>
+        <p>
+        BMWEMT is in no way affiliated or 
+        owned by BMW or its partners.
+        </p><p>
         &copy; {new Date().getFullYear()} Copyright &bull; Designed{" "}
        
         by <a href="https://modernacyber.com" target="blank">ModernaCyber</a>

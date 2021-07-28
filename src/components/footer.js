@@ -41,14 +41,11 @@ const Footer = () => (
         <p className="float-right">
         <a href="#top"><span style={{color:"blue"
       ,heigh:"10px"}}>&#160;&#8593;&#160;</span></a>
-        BMT, We are independent BMW Mechanics ,BMW fans. We are  dedicated 
+        BMWEMT, We are independent BMW Mechanics ,BMW fans. We are  dedicated 
         to BMW  owners from around the world in provision of expert maintenance practices 
         and Tips 
         </p>
-        <p>
-        BMT is in no way affiliated or 
-        owned by BMW or its partners.
-        </p>
+      
        </small>
 </div>
 
