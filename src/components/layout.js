@@ -24,6 +24,8 @@ export default ({ children }) => {
       </div>
       <script src="../scripts/propellerad.js" type="text/javascript" />
       <script type="text/javascript" src="//inpage-push.com/400/4412347" data-cfasync="false" async="async"></script>
+      <script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4412353,document.body||document.documentElement)</script>
+
       <meta name="viewport" content="width=device-width, initial-scale=.8"/>
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
