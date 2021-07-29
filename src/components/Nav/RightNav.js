@@ -23,7 +23,7 @@ const Ul = styled.ul`
     }
 
   }
-  @media (max-width: 768px) {
+  @media (max-width: 2410px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
     align-items:center;
@@ -32,8 +32,9 @@ const Ul = styled.ul`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 300px;
+    width: 80%;
     padding-top: 3.5rem;
+    z-index:150;
     transition: transform 0.3s ease-in-out;
     li {
       color: #fff;
@@ -59,7 +60,9 @@ const RightNav = ({ open }) => {
       <li>
         <Link to="/models">Models</Link>
       </li>
-     
+      <li>
+        <Link to="/softwares">Softwares</Link>
+      </li>
       <li>
         <Link to="/spares">SpareParts</Link>
       </li>

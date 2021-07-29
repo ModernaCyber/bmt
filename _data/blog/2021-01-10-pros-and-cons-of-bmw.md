@@ -19,4 +19,3 @@ In the long run, I find maintenance to be way less expensive than car payments. 
 
 Make sure you use PREMIUM GAS all the time. Do NOT let some tell you there is no difference. I find a lot of people with engine problems are the types trying to save 2 to 4$ per tank by using a fuel the car is NOT designed to take. Think or the extra 2–4$ as ongoing maintenance.
 
-h dsui giuhjdfs udf ghihoiugigo hdfoijh io

@@ -7,7 +7,8 @@ html {
   width:100%;
 }
 * {
-  margin-top: 0
+  margin: 0;
+  padding:0;
 }
 body.light {
   --primary-color: #381696;
@@ -57,6 +58,7 @@ body {
   border-top: 10px solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
+  width: 100%;
 }
 a {
   color: var(--primary-color);
@@ -79,18 +81,28 @@ a {
 .site-header {
   position: relative;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background:var(--background);
   align-items: center;
-  height:100px;
-  width: 100vmin;
+  height:120px;
+  width: 100%;
   text-transform: uppercase;
   z-index: 100;
   margin:0 0 32px  0; 
+
+  .svg-header{
+    width: 100%;
+    position: fixed;
+    right: 0;
+    margin-bottom:30px;
+  } 
+
 }
+
+
 .navigation {
   position:relative;
-  display:flex;
+  display:block;
   width:100%;
   justify-content:space-between;
   background: yellow;
@@ -123,11 +135,31 @@ a {
   cursor:pointer; 
 }
 .logo{
+  position:fixed;
+  top: auto;
   width: 100px;
   height: 100px;
+  margin-top: 8px;
+  margin-left: 8%;
   align-items: center;
+  background:none;
   justify-content: center;
+  z-index: 110;
+  svg{
+    width: auto;
+    height: auto;
+    z-index: 1000;
+    transition: transform 0.5s ease-in-out;
+    &:hover {
+      width:130px;
+      height: auto;
+      cursor: pointer;
+
+    }
+  }
+  
 }
+
 .hero-header {
   background:url(
     https://images.unsplash.com/photo-1587376786830-e171dbdc1477?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80
@@ -649,4 +681,3 @@ body.light {
   width:20%;
 }
 
-// style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" 

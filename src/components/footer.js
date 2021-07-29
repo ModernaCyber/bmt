@@ -43,7 +43,7 @@ const Footer = () => (
       ,heigh:"10px"}}>&#160;&#8593;&#160;</span></a>
         BMWEMT, We are independent BMW Mechanics ,BMW fans. We are  dedicated 
         to BMW  owners from around the world in provision of expert maintenance practices 
-        and Tips 
+        and Tips. 
         </p>
       
        </small>
