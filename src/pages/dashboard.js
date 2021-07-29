@@ -27,10 +27,10 @@ const DashboardPage = ({
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
-      {<h2 className="all-about-bmws"> All BMWs courses &darr;</h2>}
+      {<h2 className="all-about-bmws"> All ABOUT THE DASHBOARD &darr;</h2>}
       {<div className="miniContent">
-          <div> <h3><Link to="/">Dashboard</Link></h3><p></p>  </div>
-          <div><h3> <Link to="/">Main Course </Link></h3> <p></p></div>
+          <div> <h3><Link to="/">Dashboards</Link></h3><p></p>  </div>
+          <div><h3> <Link to="/">Dashboard-lights </Link></h3> <p></p></div>
         </div>}
       <div className="grids">
         {Dash}

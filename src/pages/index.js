@@ -26,7 +26,7 @@ const IndexPage = ({
         <meta name="author" content={site.siteMetadata.author}/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
          <meta name="propeller" content="3cbb8af27ca5e55b15128e3c63d4e682"/>
-           <script src="../propellerad.js" type="text/javascript" />
+          <script src="../scripts/propellerad.js" type="text/javascript" />
       </Helmet>
       <HeroHeader/>
       {<h2 className="all-about-bmws"
