@@ -3,7 +3,6 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import {Link} from "gatsby"
 import HeroHeader from "../components/heroHeader"
 const ModelsPage = ({
   data: {
@@ -28,14 +27,7 @@ const ModelsPage = ({
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
       <HeroHeader/>
-      <div className="hero-header  model-header" >
-        <div className="headline" id="top">
-          BMW MODELS
-        </div>
-        <div  className="primary-content">BMW ALL models DESCRIPTION </div>
-        <div><Link to='/contact' className="button -primary">Get in touch &rarr;</Link></div>
-        <div className="overlay"></div>
-      </div>
+
       {<h2 className="all-about-bmws"
       >All BMW Models&darr;</h2>}
       <div className="grids">

@@ -7,6 +7,7 @@ import Subscribe from "./subscribe";
 import {Helmet} from "react-helmet";
 
 
+
 export default ({ children }) => {
   const data = useStaticQuery(
     graphql`
@@ -22,9 +23,7 @@ export default ({ children }) => {
   return (
     <div className="site-wrapper">
       <header className="site-header">
-      <Helmet>  <script src="../scripts/propellerad.js" type="text/javascript" />
-      <script src="../scripts/multi-tag.js" type="text/javascript" />
-      <script type="text/javascript" src="//inpage-push.com/400/4412347" data-cfasync="false" async="async"></script>
+      <Helmet> 
       <meta name="viewport" content="width=device-width, initial-scale=.8"/>
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
@@ -39,7 +38,7 @@ export default ({ children }) => {
       <div className="site-footer">
         <Subscribe/>
         <Footer/>   
-        <p>
+        <p style={{margin:"8px 30px"}}>
         BMWEMT is in no way affiliated or 
         owned by BMW or its partners.
         &copy; {new Date().getFullYear()} Copyright &bull; Designed{" "}

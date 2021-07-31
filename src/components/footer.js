@@ -27,17 +27,23 @@ const Footer = () => (
      </div>  
     
     <div className="footer-links">   
-      <p>
-        <Link to='/404'>Services</Link></p><p>
-        <Link to='/contact'>Contact </Link></p><p>
-        <Link to='/about-us'>About_us</Link>
-
-
-      </p>
-     
+        <p>
+        <Link to='/services' style={{margin:" 4px 10px"}}>Services</Link>
+        <Link to='/contact' style={{margin:" 4px 10px"}}>Contact </Link>
+        <Link to='/about-us' style={{margin:" 4px 10px"}}>About_us</Link>
+        </p>
+        <p>
+        <Link to='/privacy' style={{margin:" 4px 10px"}}>Privacy</Link> 
+        <Link to='/terms' style={{margin:" px 10px"}}>Terms</Link>
+        <Link to='/help' style={{margin:" 4px 10px"}}>help</Link>
+        </p>
+        <p>
+        <Link to='/faqs' style={{margin:" 4px 10px"}}>Faqs</Link>
+        <Link to='/contact' style={{margin:" 4px 10px"}}>Send-us-feedback</Link>
+        </p>
       </div>
     <div>   
-      <small>
+      <small >
         <p className="float-right">
         <a href="#top"><span style={{color:"blue"
       ,heigh:"10px"}}>&#160;&#8593;&#160;</span></a>

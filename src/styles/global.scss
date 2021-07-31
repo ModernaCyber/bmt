@@ -79,35 +79,6 @@ a {
     max-width: 100%;
   }
 }
-/*.site-header {
-  position:fixed;
-  display:flex;
-  justify-content: space-evenly;
-  //background:var(--background);
-  //background: rgb(2,0,36);
-  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
-  top:auto;
-  left:0;
-  align-items: center;
-  height: 120px;
-  width: 100%;
-  text-transform: uppercase;
-  z-index: 100;
-
-}
-*/
-.menu1{
-  justify-content: center;
-  align-items:space-between;
-  background:var(--background);
-  width:40px;
-  height: 60px;
-  margin-left:20px;
-  cursor:pointer; 
-}
 .logo{
   width: 80px;
   height: 80px;
@@ -396,6 +367,8 @@ a {
   color: var(--text-secondary-color);
 }
 .site-footer {
+  min-height: 450px;
+  height: auto;
   position:sticky;
   text-align: center;
   margin: 90px 0 16px;
@@ -407,10 +380,12 @@ a {
 .site-footer .footer {
   display:flex;
   flex-wrap: wrap;
+  height: auto;
   justify-content: center;
 }
 .site-footer .footer div{
   max-width: 250px;
+  align-items: center;
 
 }
 .footer-links{
@@ -525,9 +500,7 @@ and (max-width: 768px) {
     grid-template-columns: 1fr 1fr ;
   } 
 
-  .menu{
-    display:none;
-  }
+
 .primary-content {
   font-size: 1.2rem;
   margin-bottom: 20px;
