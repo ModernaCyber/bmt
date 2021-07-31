@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "gatsby";
 
 
 const Logo = () => (
 <div className="logo" id="top">
+  <Link to="/">
 
 <svg width="100" height="100" viewBox="0 0 2000 2000" fill="black" fillOpacity="1" stroke="black" xmlns="http://www.w3.org/2000/svg">
 <g id="bmw-logo-sv 1">
@@ -25,7 +27,7 @@ const Logo = () => (
 </g>
 </g>
 </svg>
-
+</Link>
 
   </div>
 );

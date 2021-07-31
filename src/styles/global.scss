@@ -58,6 +58,8 @@ body {
   border-top: 10px solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
+  margin:0;
+  padding:0;
   width: 100%;
 }
 a {
@@ -68,63 +70,35 @@ a {
   }
 }
 .site-wrapper {
-  padding: 32px;
-  padding-top: 0;
+  padding: 0;
   width:100%;
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0;
   position: relative;
   img {
     max-width: 100%;
   }
 }
-.site-header {
-  position: relative;
+/*.site-header {
+  position:fixed;
   display:flex;
   justify-content: space-evenly;
-  background:var(--background);
+  //background:var(--background);
+  //background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+  top:auto;
+  left:0;
   align-items: center;
-  height:120px;
+  height: 120px;
   width: 100%;
   text-transform: uppercase;
   z-index: 100;
-  margin:0 0 32px  0; 
-
-  .svg-header{
-    width: 100%;
-    position: fixed;
-    right: 0;
-    margin-bottom:30px;
-  } 
 
 }
-
-
-.navigation {
-  position:relative;
-  display:block;
-  width:100%;
-  justify-content:space-between;
-  background: yellow;
-  font-weight: 600;
-  margin:auto;
-  a {
-    color: #888;
-    text-decoration: none;
-    margin: 0 8px 0;
-    margin-left: auto;
-    &[aria-current] {
-      color: var(--primary-color);
-      font-weight: 500;
-    }
-    &:hover {
-      color: var(--primary-color);
-    }
-    &:last-child {
-      margin-left:auto;
-    }
-  }  
-}
+*/
 .menu1{
   justify-content: center;
   align-items:space-between;
@@ -135,12 +109,10 @@ a {
   cursor:pointer; 
 }
 .logo{
-  position:fixed;
-  top: auto;
-  width: 100px;
-  height: 100px;
-  margin-top: 8px;
-  margin-left: 8%;
+  width: 80px;
+  height: 80px;
+  margin-top: 18px;
+  margin-left: 18px;
   align-items: center;
   background:none;
   justify-content: center;
@@ -150,6 +122,9 @@ a {
     height: auto;
     z-index: 1000;
     transition: transform 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
     &:hover {
       width:130px;
       height: auto;
@@ -172,6 +147,7 @@ a {
    background-position: center;
    border-radius: 18px;
    margin-bottom: 36px;
+   margin-top: 120px;
    color: var(--featured-text);
    display: grid;
    align-content: center;
@@ -191,6 +167,7 @@ a {
    position: relative;
    padding: 18px;
    overflow: hidden;
+   z-index:-10;
 }
 .cycle-header{
    background:url("../../static/assets/cycles.webp");
@@ -319,6 +296,7 @@ a {
   background:var(--background);
   color: var(--text-color);
   line-height: 1.5;
+  margin-top: 120px;
   > .blog-post-content {
     max-width: 768px;
     margin: 0 auto;

@@ -4,6 +4,8 @@ import Navbar from './Nav/Navbar';
 import 'prismjs/themes/prism-okaidia.css';
 import Footer from "./footer";
 import Subscribe from "./subscribe";
+import {Helmet} from "react-helmet";
+
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -20,18 +22,16 @@ export default ({ children }) => {
   return (
     <div className="site-wrapper">
       <header className="site-header">
-       <div className="svg-header"><svg  height="100%" width="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#0693e3ff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,200 0,200 C 205.71428571428572,257.14285714285717 822.8571428571429,228.57142857142858 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
-      </div>
-      <script src="../scripts/propellerad.js" type="text/javascript" />
+      <Helmet>  <script src="../scripts/propellerad.js" type="text/javascript" />
+      <script src="../scripts/multi-tag.js" type="text/javascript" />
       <script type="text/javascript" src="//inpage-push.com/400/4412347" data-cfasync="false" async="async"></script>
-      <script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4412353,document.body||document.documentElement)</script>
-
       <meta name="viewport" content="width=device-width, initial-scale=.8"/>
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content={data.site.siteMetadata.keywords}/>
-      <Navbar />
       <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      </Helmet>
+     <Navbar />
      </header>
       {children}
       <div className="card google-ads">

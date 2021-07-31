@@ -18,6 +18,7 @@ const Nav = styled.nav`
   width:100%;
   padding-right:40%;
   display: flex;
+  z-index:10000;
   justify-content: space-between;
   font-weight:600;
   align-items:center;
