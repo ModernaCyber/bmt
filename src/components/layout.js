@@ -1,10 +1,11 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Navbar from './Nav/Navbar';
 import 'prismjs/themes/prism-okaidia.css';
 import Footer from "./footer";
 import Subscribe from "./subscribe";
 import {Helmet} from "react-helmet";
+
 
 
 
@@ -39,6 +40,7 @@ export default ({ children }) => {
         <Subscribe/>
         <Footer/>   
         <p style={{margin:"8px 30px"}}>
+          <Link to="/disclaimer" style={{margin:"0 8px"}}>Discraimer</Link>
         BMWEMT is in no way affiliated or 
         owned by BMW or its partners.
         &copy; {new Date().getFullYear()} Copyright &bull; Designed{" "}
