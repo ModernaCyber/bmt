@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import {Link} from "gatsby"
-
+import HeroHeader from "../components/heroHeader"
 const ModelsPage = ({
   data: {
     site,
@@ -27,6 +27,7 @@ const ModelsPage = ({
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
+      <HeroHeader/>
       <div className="hero-header  model-header" >
         <div className="headline" id="top">
           BMW MODELS

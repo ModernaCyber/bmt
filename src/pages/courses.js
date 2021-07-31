@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import { Link ,graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
+import HeroHeader from "../components/heroHeader"
 
 
 
@@ -23,13 +24,14 @@ const CoursePage = ({
     <Layout>
       <Helmet>
         <title>{site.siteMetadata.title}</title>
-         <meta charset="UTF-8"/>
+        <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.description} />
         <meta name="keywords" content={site.siteMetadata.keywords}/>
         <meta name="author" content={site.siteMetadata.author}/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
+      <HeroHeader/>
       {<h2 className="all-about-bmws"> All BMWs courses &darr;</h2>}
       {<div className=" miniContent">
           <div> <h3><Link to="/courses/free-courses">Free Courses</Link></h3><p></p>  </div>
@@ -39,7 +41,7 @@ const CoursePage = ({
         </div>}
         {<p>Courses comming soon</p>}
       <div className="grids">
-        {}
+        {Posts}
       </div>
     </Layout>
   )

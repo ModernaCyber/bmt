@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import HeroHeader from "../components/heroHeader"
 
 const ContactPage = ({
   data: {
@@ -14,6 +15,7 @@ const ContactPage = ({
         <title>Contact — {site.siteMetadata.title}</title>
         <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
       </Helmet>
+      <HeroHeader/>
       <div className="one-grid -contact one-grid">
         <div className="post-thumbnail" style={{backgroundImage: `url('https://images.unsplash.com/photo-1585159650922-4f7e634cefbc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80')`, marginBottom: 0}}>
           <h1 className="post-title">Get in Touch</h1>

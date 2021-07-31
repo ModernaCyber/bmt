@@ -58,8 +58,6 @@ body {
   border-top: 10px solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
-  margin:0;
-  padding:0;
   width: 100%;
 }
 a {
@@ -70,11 +68,13 @@ a {
   }
 }
 .site-wrapper {
-  padding: 0;
+  box-sizing: border-box;
+  padding:0 20px;
   width:100%;
+  align-items: center;
   max-width: 1140px;
-  margin: 0;
   position: relative;
+  margin:0 auto;
   img {
     max-width: 100%;
   }
