@@ -3,26 +3,7 @@ import styled from 'styled-components';
 import {Link} from 'gatsby'
 
 const Ul = styled.ul`
-  list-style: none;
-  display: flex;
-  flex-flow: row nowrap;
-  li {
-    padding: 18px 10px;
-    color: #888;
-    text-decoration: none;
-    margin: 0 4px 0;
-    align-items:center;
-    justify-content:center;
-    &[aria-current] {
-      color: var(--primary-color);
-      font-weight: 400;
-      font-size:1.3rem;
-    }
-    &:hover {
-      color: var(--primary-color);
-    }
-
-  }
+  
   @media (max-width: 2410px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
