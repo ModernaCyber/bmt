@@ -79,6 +79,25 @@ a {
     max-width: 100%;
   }
 }
+main{
+  box-sizing: border-box;
+  display:grid;
+  column-gap: 15px;
+  row-gap: 20px;
+  grid-template-columns: auto;
+  .section-a{
+    padding:0 10px  0 0;
+    box-sizing: border-box;
+  }
+  .section-b{
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding:0 10px 0 10px;
+    background: purple;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .logo{
   width: 80px;
   height: 80px;
@@ -113,7 +132,7 @@ a {
   background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
-  height: auto;
+  height: 100px;
   width:100%;
   padding-right:40%;
   display: flex;
@@ -432,7 +451,6 @@ a {
   color: var(--text-secondary-color);
 }
 .site-footer {
-  min-height: 450px;
   height: auto;
   position:sticky;
   text-align: center;
@@ -552,8 +570,32 @@ and (min-width: 768px) {
   grid-template-columns: 1fr 1fr;
   grid-gap: 44px;
 }
+
+main{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-sizing: border-box;
+  width:100%;
+  .section-a{
+    box-sizing: border-box;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+  }
+  .section-b{
+    box-sizing: border-box;
+    height:auto;
+    padding:0 10px 0 10px;
+    background: purple;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+  }
+
+}
 .grids {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }}
 @media only screen 
 and (max-width: 768px) {
@@ -564,7 +606,7 @@ and (max-width: 768px) {
   .grids {
     grid-template-columns: 1fr 1fr ;
   } 
-
+ 
 
 .primary-content {
   font-size: 1.2rem;
@@ -578,11 +620,30 @@ and (max-width: 768px) {
   and (max-width: 558px) {
   .grids {
     grid-template-columns: 1fr;
+
   }}
 @media only screen 
   and (min-width: 1024px) {
   .grids {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  } main{
+    box-sizing: border-box;
+    display:grid;
+    column-gap: 15px;
+    row-gap: 20px;
+    grid-template-columns: 3fr 1fr;
+    .section-a{
+      padding:0 10px  0 0;
+      box-sizing: border-box;
+    }
+    .section-b{
+      box-sizing: border-box;
+      margin-top: 120px;
+      padding:0 10px 0 10px;
+      background: purple;
+      align-items: center;
+      justify-content: center;
+    }
   }
   .two-grids {
     display: grid;

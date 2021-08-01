@@ -23,6 +23,8 @@ export default ({ children }) => {
   )
   return (
     <div className="site-wrapper">
+      <main>
+      <section className="section-a">
       <header className="site-header">
       <Helmet> 
       <meta name="viewport" content="width=device-width, initial-scale=.8"/>
@@ -35,14 +37,30 @@ export default ({ children }) => {
      </header>
       {children}
       <div className="card google-ads">
-      </div>
+      </div><Subscribe/
+      
+      ></section>
+      <section className="section-b"> 
+      <div>success Re-building development bundle - 0.355s
+success extract queries from components - 0.060s
+success Re-building development bundle - 0.383s
+</div>
+      <div>success Re-building development bundle - 0.355s
+success extract queries from components - 0.060s
+success Re-building development bundle - 0.383s
+</div>
+      <div>success Re-building development bundle - 0.355s
+success extract queries from components - 0.060s
+success Re-building development bundle - 0.383s
+</div>
+      </section>
+      </main>
       <div className="site-footer">
-        <Subscribe/>
         <Footer/>   
         <p style={{margin:"8px 30px"}}>
           <Link to="/disclaimer" style={{margin:"0 8px"}}>Discraimer</Link>
-        BMWEMT is in no way affiliated or 
-        owned by BMW or its partners.
+        <small>BMWEMT is in no way affiliated or 
+        owned by BMW or its partners.</small>
         &copy; {new Date().getFullYear()} Copyright &bull; Designed{" "}
        
         by <a href="https://modernacyber.com" target="blank">ModernaCyber</a>
