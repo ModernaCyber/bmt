@@ -41,18 +41,8 @@ export default ({ children }) => {
       
       ></section>
       <section className="section-b"> 
-      <div>success Re-building development bundle - 0.355s
-success extract queries from components - 0.060s
-success Re-building development bundle - 0.383s
-</div>
-      <div>success Re-building development bundle - 0.355s
-success extract queries from components - 0.060s
-success Re-building development bundle - 0.383s
-</div>
-      <div>success Re-building development bundle - 0.355s
-success extract queries from components - 0.060s
-success Re-building development bundle - 0.383s
-</div>
+      <div>
+      </div>
       </section>
       </main>
       <div className="site-footer">

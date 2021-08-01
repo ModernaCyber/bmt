@@ -4,9 +4,10 @@ const Subscribe = (
   
 ) => {
   return (
-      <div className="subscribe" style={{ paddingBottom: "30px"}}>
+      <div className="subscribe">
          
-          <form className="form-container" action="https://getform.io/f/ff65b37d-7840-424b-b240-3a464ede432f" method="post" target="blank"> <div><p>
+          <form className="form-container" action="https://getform.io/f/ff65b37d-7840-424b-b240-3a464ede432f" method="post" target="blank"> <div><p
+          style={{justifyContent:"center"}}>
               Subscribe today and receive maintenance tips.!
               Also be among the first to Receive the upcoming <i>Bmw maintenance e-book.</i>
         </p></div>

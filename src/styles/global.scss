@@ -93,7 +93,6 @@ main{
     box-sizing: border-box;
     margin-top: 20px;
     padding:0 10px 0 10px;
-    background: purple;
     align-items: center;
     justify-content: center;
   }
@@ -587,7 +586,6 @@ main{
     box-sizing: border-box;
     height:auto;
     padding:0 10px 0 10px;
-    background: purple;
     align-items: center;
     justify-content: center;
     width:100%;
@@ -640,7 +638,6 @@ and (max-width: 768px) {
       box-sizing: border-box;
       margin-top: 120px;
       padding:0 10px 0 10px;
-      background: purple;
       align-items: center;
       justify-content: center;
     }
@@ -743,6 +740,13 @@ body.light {
     box-shadow: 0 0 0 2px;
     top: 8px;
     left: 2px
+}
+.subscribe{
+  padding-bottom: 20px;
+  margin:15px 0;
+}
+.-contact{
+height:auto;
 }
 
 .spare-ads{
