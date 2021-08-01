@@ -35,10 +35,9 @@ const Footer = () => (
         <p>
         <Link to='/privacy' style={{margin:" 4px 10px"}}>Privacy</Link> 
         <Link to='/terms' style={{margin:" px 10px"}}>Terms</Link>
-        <Link to='/help' style={{margin:" 4px 10px"}}>help</Link>
+       
         </p>
         <p>
-        <Link to='/faqs' style={{margin:" 4px 10px"}}>Faqs</Link>
         <Link to='/contact' style={{margin:" 4px 10px"}}>Send-us-feedback</Link>
         </p>
       </div>

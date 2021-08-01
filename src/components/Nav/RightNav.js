@@ -44,7 +44,7 @@ const Ul = styled.ul`
 
 const RightNav = ({ open }) => {
   return (
-    <Ul open={open}>
+    <Ul open={open} className="right-nav">
       <div  className="left-menu-overlay"></div>
       <li>
         <Link to="/">Home</Link>

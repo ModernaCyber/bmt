@@ -46,7 +46,7 @@ const Nav = styled.nav`
 `
 const Navbar = () => {
   return (
-    <Nav>
+    <Nav className="navigation">
       <div><Logo/></div>
       <div className="theme-chg"><ThemeChanger/></div>
       <div><Burger /></div>
