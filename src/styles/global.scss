@@ -199,6 +199,12 @@ a {
    overflow: hidden;
    z-index:-10;
 }
+.about-content-main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .cycle-header{
    background:url("../../static/assets/cycles.webp");
    text-align: center;
