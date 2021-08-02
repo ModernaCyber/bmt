@@ -1,9 +1,10 @@
 import React from "react"
 import Helmet from 'react-helmet';
-import { graphql } from 'gatsby'
+import {Link , graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import HeroHeader from "../components/heroHeader"
+import HeroHeader from "../components/heroHeader";
+
 const ModelsPage = ({
   data: {
     site,
@@ -27,9 +28,24 @@ const ModelsPage = ({
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
       <HeroHeader/>
-
-      {<h2 className="all-about-bmws"
-      >All BMW Models&darr;</h2>}
+      {<h2 className="all-about-bmws">All BMW Models&darr;</h2>}
+      {<div className=" miniContent">
+          <div > <h3 className="button-link"><Link>Models</Link></h3>
+          <h4>You Got that BMW part number ?</h4>
+          <p>Get exceptional value of your money as we compare pricing and features across different stores for affordable parts.</p>  
+          </div>
+          <div><h3  className="button-link"> <Link> Upcoming </Link></h3> 
+          <p>
+            <h4>Want to upgrade and optimise your Bmw?</h4>
+            Get genuine BMW Accessories information for you to customise your BMW to suit your individual lifestyle.
+          </p>
+          </div>
+          <div><h3 className="button-link"> <Link>Reviews</Link></h3> 
+          <h4>Adventurer, everyday use, Optimise performance? We got you covered</h4>
+          Get genuine exceptional accessories and spareparts for your classic bike.
+          <p></p>
+          </div> 
+        </div>}
       <div className="grids">
         {Posts}
       </div>

@@ -33,13 +33,27 @@ const CoursePage = ({
       </Helmet>
       <HeroHeader/>
       {<h2 className="all-about-bmws"> All BMWs courses &darr;</h2>}
-      {<div className=" miniContent">
-          <div> <h3><Link to="/courses/free-courses">Free Courses</Link></h3><p></p>  </div>
-          <div><h3> <Link to="/courses/paid-courses">Paid Courses </Link></h3> <p></p></div>
-          <div><h3> <Link to="/courses/ebooks">E-books </Link></h3> <p></p></div> 
-          <div><h3> <Link to="/courses/softwares">Softwares</Link></h3> <p></p></div>
+        {<div className=" miniContent">
+          <div > <h3 className="button-link"><Link>Courses</Link></h3>
+          <h4>You Got Time to learn something new Today?</h4>
+          <p>
+            Get exceptional skills in the BMW world in the art of basic repair and mentainance and diagnostics.
+            <h5>Never Stop Learning!</h5>
+             </p>  
+          </div>
+          <div><h3  className="button-link"> <Link>Softwares </Link></h3> 
+          <p>
+            <h4>Want to learn about different bmw diagnostic softwares?</h4>
+            Learn how to operate different diagnostic softwares, perform diagnostics and upgrade your BMW firmware & maps. Also know whereto download the Softwares.
+          </p>
+          </div>
+          <div><h3 className="button-link"> <Link>E-books</Link></h3> 
+          <h4>You got a question? We got the answer</h4>
+          Get genuine and exceptional e-books on bmw vehicles diagnosis and maintenance tips .
+          Free to download manuals on all Bmw models.
+          <p></p>
+          </div> 
         </div>}
-        {<p>Courses comming soon</p>}
       <div className="grids">
         {Posts}
       </div>

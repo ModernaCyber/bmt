@@ -39,8 +39,8 @@ const SparesPage = ({
       </div>
       {<h2 className="all-about-bmws"
       >All About BMW Spare-Parts&darr;</h2>}
-      {<div className=" miniContent">
-          <div > <h3 className="button-link"><Link>Spare-parts</Link></h3>
+    {<div className=" miniContent">
+            <div > <h3 className="button-link"><Link>Spare-parts</Link></h3>
           <h4>You Got that BMW part number ?</h4>
           <p>Get exceptional value of your money as we compare pricing and features across different stores for affordable parts.</p>  
           </div>
@@ -51,7 +51,7 @@ const SparesPage = ({
           </p>
           </div>
           <div><h3 className="button-link"> <Link>Bike Accessories</Link></h3> 
-          <h4>Adventures everyday use, Optimise performance? We got you covered</h4>
+          <h4>Adventurer, everyday use, Optimise performance? We got you covered</h4>
           Get genuine exceptional accessories and spareparts for your classic bike.
           <p></p>
           </div> 
