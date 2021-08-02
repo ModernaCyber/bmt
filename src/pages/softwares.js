@@ -32,16 +32,25 @@ const SoftwaresPage = ({
       {<h2 className="all-about-bmws"> All BMWs Software Updates and Diagnostic Softwares &darr;</h2>}
       {
           <div className="miniContent">
-          <div> <h3><Link to="/software-updates">Software updates</Link></h3></div>
-          <div> <h3><Link to="/diagnostic-softwares">Software</Link></h3>
+          <div> </div>
+          <div> 
           </div>
         </div>
       }
        {<section className="section-update">
-            <div><h3>UPGRADING YOUR BMW SOFTWARE</h3><h4>WHAT YOU NEED TO KNOW</h4><p>
-But how does it all work then? Is it free? How long does it take? And what about my data? Lots of questions – but fear not, we’re here to help…</p></div>
-            <div>
-                <h3>BMW DIAGNOSTICS SOFTWARES</h3><h4>WHAT YOU NEED TO KNOW</h4>
+            <div className="section-update-a">
+              <h3 className="button-link"><Link to="/software-updates">Software updates</Link></h3>
+              <h3>UPGRADING YOUR BMW SOFTWARE</h3>
+              <div>
+
+              </div>
+            </div>
+            <div className="section-update-b">
+                <h3 className="button-link"><Link to="/diagnostic-softwares">Softwares</Link></h3>
+                <h3>BMW DIAGNOSTICS SOFTWARES</h3>
+                <div>
+
+                </div>
             </div>
         </section>
        }
