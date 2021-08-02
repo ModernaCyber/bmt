@@ -42,13 +42,26 @@ const SoftwaresPage = ({
               <h3 className="button-link"><Link to="/software-updates">Software updates</Link></h3>
               <h3>UPGRADING YOUR BMW SOFTWARE</h3>
               <div>
-
+                <p>
+                  The latest software version have a ton of features
+                 which do include: 
+                 Alexa. 
+                     The ability to quickly and easily sign in
+                   with your driver profile once on board using
+                    the My BMW app. 
+                    Expansion of Active 
+                    Navigation. 
+                                  
+                </p>
               </div>
             </div>
             <div className="section-update-b">
-                <h3 className="button-link"><Link to="/diagnostic-softwares">Softwares</Link></h3>
+                <h3 className="button-link"><Link to="/diagnostic-softwares">Diagnostic-Softwares</Link></h3>
                 <h3>BMW DIAGNOSTICS SOFTWARES</h3>
-                <div>
+                <div><p>What is the best bmw diagnostic softwares?
+                If you are having some issues like brake issues, battery problems,
+                 light or even the engine, Diagnostic software allow you to diagnose the cause and be able to fix it.
+                </p>
 
                 </div>
             </div>
