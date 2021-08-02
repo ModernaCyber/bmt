@@ -39,11 +39,11 @@ const DashboardPage = ({
 Engine Temperature Warning,
 Traction Control Light,
 Anti-lock Brake Warning Light,
-Traction Control Malfunction.</p>  
+Traction Control Malfunction...</p>  
           </div>
           <div><h3  className="button-link"> <Link>Dashboard-lights </Link></h3>
             <h4>What do the lights mean?</h4> <p>
-            Get exceptional insight into all those lights.Red indicates an issue that requires immediate attention while Flashing warning lights signal an urgent issue.      </p>
+            Get exceptional insight into all those lights.Red indicates an issue that requires immediate attention while Flashing warning lights signal an urgent issue...      </p>
           </div>
 
         </div>}
