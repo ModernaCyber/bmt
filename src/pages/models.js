@@ -31,19 +31,21 @@ const ModelsPage = ({
       {<h2 className="all-about-bmws">All BMW Models&darr;</h2>}
       {<div className=" miniContent">
           <div > <h3 className="button-link"><Link>Models</Link></h3>
-          <h4>You Got that BMW part number ?</h4>
-          <p>Get exceptional value of your money as we compare pricing and features across different stores for affordable parts.</p>  
+          <h4>Why are BMW cars expensive ?</h4>
+          <p> Get to know all Coupe, Convertible, Gran Coupe, Active Tourer, Gran Tourer and the M2 Competition. All -118i-116d -118d -120d -120d xDrive -M135i xDriveBmw models</p>  
           </div>
           <div><h3  className="button-link"> <Link> Upcoming </Link></h3> 
-          <p>
-            <h4>Want to upgrade and optimise your Bmw?</h4>
-            Get genuine BMW Accessories information for you to customise your BMW to suit your individual lifestyle.
-          </p>
+         
+            <h4>Which is the latest BMW model?</h4> <p>
+            Get exceptional insight into all upcoming BMW Models.
+            </p>
           </div>
           <div><h3 className="button-link"> <Link>Reviews</Link></h3> 
-          <h4>Adventurer, everyday use, Optimise performance? We got you covered</h4>
-          Get genuine exceptional accessories and spareparts for your classic bike.
-          <p></p>
+          
+          <h4>Which Bmw Model is the best?</h4> <p>
+          An in-depth look at the brand, the different 
+          types of BMW cars available, their features and price tag.. 
+          </p>
           </div> 
         </div>}
       <div className="grids">
