@@ -449,6 +449,7 @@ main{
   font-size: 0.8rem;
   color: var(--text-secondary-color);
 }
+
 .site-footer {
   height: auto;
   position:sticky;
@@ -569,6 +570,16 @@ and (min-width: 768px) {
   grid-template-columns: 1fr 1fr;
   grid-gap: 44px;
 }
+.befor-footer{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  padding:10px 0;
+  justify-content: center;
+  align-items: center;
+  padding-top:10px;
+}
+
 
 main{
   display: grid;
@@ -590,7 +601,6 @@ main{
     justify-content: center;
     width:100%;
   }
-
 }
 .grids {
   grid-template-columns: 1fr 1fr;
@@ -604,8 +614,9 @@ and (max-width: 768px) {
   .grids {
     grid-template-columns: 1fr 1fr ;
   } 
- 
-
+  .befor-footer{
+    display:none;
+  }
 .primary-content {
   font-size: 1.2rem;
   margin-bottom: 20px;

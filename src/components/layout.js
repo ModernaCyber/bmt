@@ -5,6 +5,9 @@ import 'prismjs/themes/prism-okaidia.css';
 import Footer from "./footer";
 import Subscribe from "./subscribe";
 import {Helmet} from "react-helmet";
+import Footerads from "./footerads";
+import Rightads from "./rightads";
+
 
 
 
@@ -37,10 +40,15 @@ export default ({ children }) => {
      </header>
       {children}
       <div className="card google-ads">
-      </div><Subscribe/
+      </div>
+      <div className="befor-footer"> 
+      <Footerads/>
+      </div>
+      <Subscribe/
       
       ></section>
       <section className="section-b"> 
+      <Rightads/>
       <div>
       </div>
       </section>
