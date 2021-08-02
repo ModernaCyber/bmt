@@ -30,9 +30,22 @@ const DashboardPage = ({
       </Helmet>
       <HeroHeader/>
       {<h2 className="all-about-bmws"> All ABOUT THE DASHBOARD &darr;</h2>}
-      {<div className="miniContent">
-          <div> <h3><Link to="/">Dashboards</Link></h3><p></p>  </div>
-          <div><h3> <Link to="/">Dashboard-lights </Link></h3> <p></p></div>
+ 
+{<div className=" miniContent">
+          <div > <h3 className="button-link"><Link>dashboard</Link></h3>
+          <h4>What do all the symbols Mean?</h4>
+          <p> Get to know all BMW symbols.
+          Tire Pressure Warning Light,
+Engine Temperature Warning,
+Traction Control Light,
+Anti-lock Brake Warning Light,
+Traction Control Malfunction.</p>  
+          </div>
+          <div><h3  className="button-link"> <Link>Dashboard-lights </Link></h3>
+            <h4>What do the lights mean?</h4> <p>
+            Get exceptional insight into all those lights.Red indicates an issue that requires immediate attention while Flashing warning lights signal an urgent issue.      </p>
+          </div>
+
         </div>}
       <div className="grids">
         {Dash}
