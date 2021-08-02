@@ -29,8 +29,21 @@ const BikesPage = ({
       </Helmet>
       <HeroHeader/>
       {<h2 className="all-about-bmws"> All BMWs Bicycles &darr;</h2>}
-      {<div className="miniContent">
-          <div> <h3><Link to="/bikes">Bicycles</Link></h3><p></p>  </div>
+{<div className=" miniContent">
+          <div > <h3 className="button-link"><Link>Models</Link></h3>
+          <h4>Does BMW make cycles?</h4>
+          <p> Get to know all BMW bicycles geared for performance.</p>  
+          </div>
+          <div><h3  className="button-link"> <Link> Upcoming </Link></h3>
+            <h4>Which is the latest BMW bicycle model?</h4> <p>
+            Get exceptional insight into all upcoming BMW cycles Models.      </p>
+          </div>
+          <div><h3 className="button-link"> <Link>Reviews</Link></h3> 
+          <h4>Which Bmw Cycles is the best?</h4> <p>
+          An in-depth look at the brand, the different 
+          types of BMW cycles available, features and price tag. 
+          </p>
+          </div> 
         </div>}
       <div className="grids">
         {Posts}

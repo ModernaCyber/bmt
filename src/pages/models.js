@@ -32,7 +32,7 @@ const ModelsPage = ({
       {<div className=" miniContent">
           <div > <h3 className="button-link"><Link>Models</Link></h3>
           <h4>Why are BMW cars expensive ?</h4>
-          <p> Get to know all Coupe, Convertible, Gran Coupe, Active Tourer, Gran Tourer and the M2 Competition. All -118i-116d -118d -120d -120d xDrive -M135i xDriveBmw models</p>  
+          <p> Get to know all Coupe, Convertible, Gran Coupe, Active Tourer, Gran Tourer and the M2 Competition. All Bmw models.</p>  
           </div>
           <div><h3  className="button-link"> <Link> Upcoming </Link></h3> 
          
@@ -44,7 +44,7 @@ const ModelsPage = ({
           
           <h4>Which Bmw Model is the best?</h4> <p>
           An in-depth look at the brand, the different 
-          types of BMW cars available, their features and price tag.. 
+          types of BMW cars available, features and price tag. 
           </p>
           </div> 
         </div>}

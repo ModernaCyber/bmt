@@ -238,25 +238,15 @@ main{
    background-position: center;
    border-radius: 18px;
    margin-bottom: 36px;
-   color: var(--featured-text);
+   //color: var(--featured-text);
+   color:rgb(108, 127, 235); 
    display: grid;
    align-content: center;
    position: relative;
    padding: 18px;
    overflow: hidden;    text-align: center;
    min-height: 380px;
-   background-color: var(--featured-bg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   border-radius: 18px;
-   margin-bottom: 36px;
-   color: var(--featured-text);
-   display: grid;
-   align-content: center;
-   position: relative;
-   padding: 18px;
-   overflow: hidden;
+ 
 }
 .hero-header .overlay {
   position: absolute;
