@@ -86,7 +86,7 @@ main{
   row-gap: 20px;
   grid-template-columns: auto;
   .section-a{
-    padding:0 10px  0 0;
+    padding:0 10px  0 10px;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -315,9 +315,8 @@ main{
   justify-content: center;
 }
 .miniContent{
-  height: auto;
   display:flex;
-  font-weight: 500;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   a {
     color: #888;
@@ -332,6 +331,19 @@ main{
       color: var(--primary-color);
     }
 
+  }
+  div{
+    width:30%;
+    min-width: 200px;
+    margin: 10px 10px ;
+  }
+  .button-link{
+    width:100%;
+    height:auto;
+    padding:10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 22px -10px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 22px -10px rgba(0,0,0,0);
+    margin-bottom: 15px;
   }
 }
 .menu ul{
@@ -593,7 +605,7 @@ main{
   width:100%;
   .section-a{
     box-sizing: border-box;
-    padding: 0 10px;
+    padding: 0 10px 0 10px;
     align-items: center;
     justify-content: center;
     width:100%;
@@ -652,7 +664,7 @@ and (max-width: 768px) {
     row-gap: 20px;
     grid-template-columns: 3fr 1fr;
     .section-a{
-      padding:0 10px  0 0;
+      padding:0 10px  0 10px;
       box-sizing: border-box;
       align-items: center;
       justify-content: center;
