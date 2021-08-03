@@ -34,6 +34,7 @@ export default ({ children }) => {
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content={data.site.siteMetadata.keywords}/>
+        <meta name="fo-verify" content="56186df2-ebee-435f-bbe0-f42aa0c23db0"/>
       <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
      <Navbar />
