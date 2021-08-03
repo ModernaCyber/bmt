@@ -34,8 +34,18 @@ export default ({ children }) => {
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content={data.site.siteMetadata.keywords}/>
-        <meta name="fo-verify" content="56186df2-ebee-435f-bbe0-f42aa0c23db0"/>
+      
+      <meta name="fo-verify" content="56186df2-ebee-435f-bbe0-f42aa0c23db0"/>
       <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script type="text/javascript">
+    amzn_assoc_ad_type = "link_enhancement_widget";
+    amzn_assoc_tracking_id = "bmwemt-20";
+    amzn_assoc_linkid = "5e9f4e784e5929ab2d3ad8ba7b2d4871";
+    amzn_assoc_placement = "";
+    amzn_assoc_marketplace = "amazon";
+    amzn_assoc_region = "US";
+            </script>
+        <script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
       </Helmet>
      <Navbar />
      </header>
