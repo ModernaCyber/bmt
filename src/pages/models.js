@@ -25,6 +25,19 @@ const ModelsPage = ({
         <meta name="keywords" content={site.siteMetadata.keywords}/>
         <meta name="author" content={site.siteMetadata.author}/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <script type="text/javascript">
+amzn_assoc_tracking_id = "bmwemt-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B0784Y6SBM";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "5084f9783f9f918503cf8a3729bd69c0";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
       <HeroHeader/>
