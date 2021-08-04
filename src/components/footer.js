@@ -53,7 +53,7 @@ const Footer = () => (
       
        </small>
 </div>
-
+    
   </footer>
 );
 export default Footer;

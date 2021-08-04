@@ -86,7 +86,7 @@ main{
   row-gap: 20px;
   grid-template-columns: auto;
   .section-a{
-    padding:0 10px  0 10px;
+    padding:0 2px  0 2px;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -106,25 +106,24 @@ main{
   }
 }
 .logo{
-  width: 80px;
-  height: 80px;
-  margin-top: 18px;
-  margin-left: 18px;
+  width: auto;
+  height: 60px;
+  margin: auto 24px;
   align-items: center;
   background:none;
   justify-content: center;
   z-index: 110;
   svg{
     width: auto;
-    height: auto;
+    height: 60px;
     z-index: 1000;
     transition: transform 0.5s ease-in-out;
     justify-content: center;
     align-items: center;
     margin:auto;
     &:hover {
-      width:130px;
-      height: auto;
+      width:auto;
+      height: 62;
       cursor: pointer;
 
     }
@@ -139,9 +138,8 @@ main{
   background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
-  height: 100px;
+  height: 64px;
   width:100%;
-  padding-right:40%;
   display: flex;
   z-index:10000;
   justify-content: space-between;
@@ -196,33 +194,17 @@ main{
 .hero-header {
    background:url("../../static/assets/hero-head.jpg");
    text-align: center;
-   min-height: 380px;
-   background-color: var(--featured-bg);
-   background-repeat: no-repeat;
-   background-size: cover;
+   min-height: 360px;
    background-position: center;
    border-radius: 18px;
-   margin-bottom: 36px;
-   margin-top: 120px;
+   margin-bottom: 20px;
+   margin-top: 60px;
    color: var(--featured-text);
    display: grid;
    align-content: center;
    position: relative;
-   padding: 18px;
-   overflow: hidden;    text-align: center;
-   min-height: 380px;
-   background-color: var(--featured-bg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   border-radius: 18px;
-   margin-bottom: 36px;
-   color: var(--featured-text);
-   display: grid;
-   align-content: center;
-   position: relative;
-   padding: 18px;
-   overflow: hidden;
+   padding: 4px;
+   overflow: hidden; 
    z-index:-10;
 }
 .about-content-main{
@@ -233,22 +215,20 @@ main{
 }
 .cycle-header{
    background:url("../../static/assets/cycles.webp");
-   text-align: center;
-   min-height: 380px;
    background-color: var(--featured-bg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
    border-radius: 18px;
-   margin-bottom: 36px;
-   //color: var(--featured-text);
+   margin-bottom: 20px;
    color:rgb(108, 127, 235); 
    display: grid;
    align-content: center;
    position: relative;
    padding: 18px;
-   overflow: hidden;    text-align: center;
-   min-height: 380px;
+   overflow: hidden;    
+   text-align: center;
+   min-height: 360px;
  
 }
 .hero-header .overlay {
@@ -356,11 +336,11 @@ main{
   padding-left: 10%;
 }
 .post {
-  padding: 0;
+  padding: 0 10px;
   background:var(--background);
   color: var(--text-color);
   line-height: 1.5;
-  margin-top: 120px;
+  margin-top: 60px;
   > .blog-post-content {
     max-width: 768px;
     margin: 0 auto;
@@ -561,6 +541,17 @@ and (max-width: 480px) {
     width:100%;
     padding:15px;
   }
+
+  .miniContent{
+    div{
+      width: 80%;
+    }
+  } 
+.site-footer{
+  margin: 10px auto;
+  justify-content: center;
+}  
+  
 .headline{
   font-weight:600;
   font-size:1.4rem;
@@ -593,7 +584,8 @@ and (min-width: 768px) {
 
 main{
   display: grid;
-  grid-template-columns: 60% 40% ;
+  //grid-template-columns: 60% 40% ;
+  grid-template-columns: auto;
   box-sizing: border-box;
   width:100%;
   .section-a{
@@ -612,7 +604,7 @@ main{
     padding:0 10px 0 10px;
     align-items: flex-start;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 60px;
     width:100%;
     -webkit-box-shadow: 0px 0px 22px -10px rgba(0,0,0,0.75); 
     box-shadow: 0px 0px 22px -10px rgba(0,0,0,0.75);
@@ -627,6 +619,11 @@ and (max-width: 768px) {
     width:100%;
     padding:15px;
   }
+  .miniContent{
+    div{
+    
+    }
+  }  
   .grids {
     grid-template-columns: 1fr 1fr ;
   } 
@@ -656,7 +653,8 @@ and (max-width: 768px) {
     display:grid;
     column-gap: 15px;
     row-gap: 20px;
-    grid-template-columns: 3fr 1fr;
+    //grid-template-columns: 3fr 1fr;
+    grid-template-columns: auto;
     .section-a{
       padding:0 10px  0 10px;
       box-sizing: border-box;
@@ -669,7 +667,7 @@ and (max-width: 768px) {
     .section-b{
       box-sizing: border-box;
       display:flex;
-      margin-top: 100px;
+      margin-top: 60px;
       padding:10 10px 0 10px;
       align-items:flex-start;
       justify-content: center;
@@ -851,7 +849,7 @@ right-ads{
   align-items: center;
   margin-top: 20px;
   width:100%;
-  height:100%;
+  height:auto;
  
   div{
     padding: 10px 5px;
@@ -873,5 +871,46 @@ right-ads{
       font-weight: 600;
     }
   }
+}
+.banners {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width:100%;
+  height:auto;
  
+  div{
+    padding: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto ;
+    border-radius: 10px;
+    margin: 38px 10px;
+    
+  }
+}
+.download{
+  padding:auto;
+  color:white;
+  background: green;
+  width: auto;
+  height: auto;
+  font-weight:500;
+  font-size:1.6rem;
+  align-items:center;
+  justify-content:center;
+  border-radius:8px;
+  h5 {
+    margin-left: auto;
+    a{  
+      text-decoration:none;
+      cursor:pointer;
+  } 
+  }
+ 
+
 }

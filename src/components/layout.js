@@ -7,6 +7,8 @@ import Subscribe from "./subscribe";
 import {Helmet} from "react-helmet";
 import Footerads from "./footerads";
 import Rightads from "./rightads";
+import Logo from "./logo";
+import Banner from "./banners";
 
 
 
@@ -59,18 +61,22 @@ export default ({ children }) => {
       
       ></section>
       <section className="section-b"> 
+      <Banner/>
       <Rightads/>
       <div>
       </div>
       </section>
       </main>
       <div className="site-footer">
-        <Footer/>   
+        <Footer/>  
+        
         <p style={{margin:"8px 30px"}}>
-          <Link to="/disclaimer" style={{margin:"0 8px"}}>Discraimer</Link>
+        <Logo/>
+           <Link to="/disclaimer" style={{margin:"0 8px"}}>Discraimer</Link>
         <small>BMWEMT is in no way affiliated or 
         owned by BMW or its partners.</small>
-        &copy; {new Date().getFullYear()} Copyright &bull; Designed{" "}
+
+        &copy; {new Date().getFullYear()} ModernaCyber &bull; Designed{" "}
        
         by <a href="https://modernacyber.com" target="blank">ModernaCyber</a>
       </p>  

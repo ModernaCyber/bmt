@@ -5,11 +5,11 @@ import RightNav from './RightNav';
 const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
-  position: fixed;
   background:none;
-  top: 35px;
-  right: 40px;
-  margin-left:15%;
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-left:15px;
+  margin-right:24px;
   cursor:pointer;
   z-index: 200;
   display: none;
@@ -25,6 +25,7 @@ const StyledBurger = styled.div`
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
+    z-index:1000;
     &:nth-child(1) {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }
