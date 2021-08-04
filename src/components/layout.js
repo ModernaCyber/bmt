@@ -38,7 +38,7 @@ export default ({ children }) => {
       <meta name="keywords" content={data.site.siteMetadata.keywords}/>
       
       <meta name="fo-verify" content="56186df2-ebee-435f-bbe0-f42aa0c23db0"/>
-      <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9428197784618612" crossorigin="anonymous"></script>
             <script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "bmwemt-20";
