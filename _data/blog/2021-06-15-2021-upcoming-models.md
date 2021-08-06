@@ -11,7 +11,17 @@ thumbnail: /assets/imagebmw.jpg
 2021 has been the year that majority folks have been looking forward to. For all BMW fans let’s take a look at a number of the highest BMWs which will either continue sale or debut next year.
 
 The redesigned four Series is a confidence-inspiring luxury coupe and convertible. It’s swish, effortlessly powerful, well-appointed and amazingly economical.
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9428197784618612"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9428197784618612"
+     data-ad-slot="3748545571"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ### BMW’s 4 Series
 It's AN all-new style, stealing attention from its statuesque body, upgraded interior and progressive tech and safety options.
 

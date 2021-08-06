@@ -25,7 +25,17 @@ It’s inevitable that you’ll have to take your BMW to the workshop from time 
 
 </style>
 Your car’s engine is the car; it keeps your car going. With any sort of engine problems, you face a risk of danger, your car will not function at its optimal level, or your car will be rendered useless. i.e. even small engine issues can equal BIG problems at some point. Have your engine checked a few times a year. At the same time, have your transmission checked.
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9428197784618612"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9428197784618612"
+     data-ad-slot="3748545571"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ###  Brakes
 BMW’s brakes are essential, They are the thin blue line in safety. Checking your brakes should be a regular basic car maintenance. Here’s where the assistance of a  professional mechanic is extra important as well as necessary. BMW repair expert recommends flushing the brake system every two years or so.
 This is because brake fluid is hydroscopic, absorbs moisture from the air. Over time, this dangerously contaminates the brake fluid, eventually leading to brake system failures. Another thing to have your mechanic look at at the same time are your brake pads preventing that annoying squeaking and other problems.

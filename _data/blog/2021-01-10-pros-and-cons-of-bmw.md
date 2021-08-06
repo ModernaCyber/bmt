@@ -10,8 +10,23 @@ metaDescription: df sdf df
 Bmw cars are extremely engineered well making them very safe car, the cars are fun as well. The engine can easily go 300k miles.
 
 [Read More](/)
+
 ### Cons 
+
+
 If you don’t take care of it it will break, like everything else. Make friends with the local independent BMW shop and fix each problem as it arises. Do NOT defer maintenance. If you let things pile up, it will be a nightmare or to expensive to fix all at once.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9428197784618612"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9428197784618612"
+     data-ad-slot="3748545571"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A 3-series from 2000–2006 is inexpensive and the parts are getting a lot cheaper. There a lot of these cars still on the road and the aftermarket folks are now making most parts for them.
 

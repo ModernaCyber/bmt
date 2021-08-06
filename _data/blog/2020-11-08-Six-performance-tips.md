@@ -39,6 +39,18 @@ Upgrading your vehicle's exhaust system from the cat back - or in the case of tu
 Switching over to synthetic will reduce the "oil wedge" between moving parts, thus reducing friction and increasing power. While its not a massive increase, it's super-simple to add it on.
  
 # 5.Performance Engine Build.
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9428197784618612"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9428197784618612"
+     data-ad-slot="3748545571"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 This requires rebuilding the engine with performance parts such as beefed up cylinder heads, upgraded pistons, and a stroker crankshaft to name a few. If you’re not comfortable disassembling an engine, then this is best left to an experienced engine builder.
 # 6.Forced Induction.
 If your vehicle’s engine is naturally aspirated, forced induction will provide some hefty power gains. Forced induction can come in the form of a turbocharger or a supercharger.

@@ -13,6 +13,17 @@ Most people aren’t technically trained or skilled enough to get down on their 
  It can be hard to find shade in the blistering Austin summers, but try to park your vehicle in the shade wherever possible. The UV rays found in the sun can cause damage to the interior and exterior of your car over time. It’s also a good idea to keep a car shade in the windshield of your car.
 ###  2. Keep your car clean.
  Both the inside and outside. Keeping your car clean not only makes it look better, it keeps it running better, too. How? Dirt and other particles can cause damage to the delicate components of your vehicle. A dirty car may also have a psychological impact, causing you to unconsciously treat your car more poorly than you otherwise might.
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9428197784618612"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9428197784618612"
+     data-ad-slot="3748545571"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ### 3. Protect your leather.
  If your car has a leather interior, it’s important to keep it clean and treated. While leather is durable, it can still experience wear and tear, and cracked or otherwise worn leather can quickly start looking tacky. Keep leather seats safe with a cover or protector
 ### 4. Wax your car. 
