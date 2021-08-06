@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 const About_us = () => (
   <Layout>
-    <div className="post-thumbnail" style={{ backgroundImage: `url('https://image.shutterstock.com/image-photo/novosibirsk-russia-october-16-2020-600w-1839033184.jpg')`, margin:"120px 15px 15px 0" }}>
+    <div className="post-thumbnail" style={{ backgroundImage: `url('https://image.shutterstock.com/image-photo/novosibirsk-russia-october-16-2020-600w-1839033184.jpg')`, margin:"60px 15px 15px 0" }}>
       <h1>HI!</h1>
       <h1> WE ARE BMWEMT TEAM </h1>
       <div><Link to='/contact' className="button -primary">Get in touch &rarr;</Link></div>

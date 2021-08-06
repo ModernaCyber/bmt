@@ -28,7 +28,7 @@ const IndexPage = ({
          <meta name="propeller" content="3cbb8af27ca5e55b15128e3c63d4e682"/>
          <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
-      <HeroHeader/>
+      <HeroHeader/>  
       {<h2 className="all-about-bmws"
       >All About BMWs &darr;</h2>}
       <div className="grids">

@@ -8,5 +8,33 @@
     "title": "BMW ESSENTIAL MAINTENANCE TIPS",
     "description": "EXPLORE ALL BMW MAINTENANCE TIPS, MODELS, SOFTWARE & MAPS UPDATE, PLUS MASSIVE SOLUTIONS TO DIFFERENT DIAGNOSTICS PROBLEMS...! GET IT ALL FROM AN EXPERT!",
     "description-home": "BUYING A BMW IS AND WILL ALWAYS BE CHEAP, MAINTAINING ONE IS NOT ,BUT IT DOESN`T HAVE TO BE. GET THE BEST MAINTAINANCE TIPS , AND SAVE ON THAT TRIP, TO THE WORKSHOP!!"
+  },
+  "bikes": {
+    "title": "BMW BICYCLES",
+    "description": "EXPLORE ALL! "
+  },
+  "cycles": {
+    "title": "BMW MOTORCYCLES",
+    "description": "EXPLORE ALL MODELS AT A GLANCE!"
+  },
+  "courses": {
+    "title": "BMW COURSES",
+    "description": "DISCOVER FREE ONLINE COURSES IN THE BMW COMMUNITY"
+  },
+  "dashboard": {
+    "title": "ALL BMW DASHBOARDS",
+    "description": " EXPLORE ALL BMW MODELS DASHBOARD  TO ENJOY A SAFE AND CAREFREE DRIVING!"
+  },
+  "models": {
+    "title": "ALL BMW MODELS",
+    "description": "GET INDEPTH GUIDE TO ALL MODELS, FEATURES AND PRICES"
+  },
+  "software": {
+    "title": "BMW SOFTWARES",
+    "description": " ENSURE YOUR BMW ALWAYS KEEPS PACE WITH THE LATEST UPDATES"
+  },
+  "spares": {
+    "title": "BMW SPAREPARTS & ACCESSORIES",
+    "description": "EXPLORE ALL BMW SPAREPARTS AND ACCESSORIES FOR YOUR MODEL"
   }
 }

@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import {Link} from "gatsby"
+import HeroHeader from "../components/heroHeader"
 
 const CyclePage = ({
   data: {
@@ -28,16 +29,7 @@ const CyclePage = ({
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
     
-      <div className="hero-header cycle-header ">
-        <div className="headline" id="top">
-          BMW MOTORCYCLES
-        </div>
-        <div  className="primary-content"> ALL AT A GLANCE.</div>
-         <div style={{padding:"10px 10px",fontSize:"1.8rem"}}>Ride your  BMW Motorcycle with the peace of mind you deserve
-         </div>
-        <div><Link to='/contact' className="button -primary">Get in touch &rarr;</Link></div>
-        <div className="overlay"></div>
-      </div>
+      <HeroHeader/>
       {<h2 className="all-about-bmws">All About BMWs Motorcycles &darr;</h2>}
           {<div className=" miniContent">
           <div > <h3 className="button-link"><Link>Models</Link></h3>

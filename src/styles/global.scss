@@ -192,9 +192,9 @@ main{
 }
 
 .hero-header {
-   background:url("../../static/assets/hero-head.jpg");
+   background:url("../../static/assets/header.webp");
    text-align: center;
-   min-height: 360px;
+   min-height: 350px;
    background-position: center;
    border-radius: 18px;
    margin-bottom: 20px;
@@ -213,24 +213,7 @@ main{
   align-items: center;
   justify-content: center;
 }
-.cycle-header{
-   background:url("../../static/assets/cycles.webp");
-   background-color: var(--featured-bg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   border-radius: 18px;
-   margin-bottom: 20px;
-   color:rgb(108, 127, 235); 
-   display: grid;
-   align-content: center;
-   position: relative;
-   padding: 18px;
-   overflow: hidden;    
-   text-align: center;
-   min-height: 360px;
- 
-}
+
 .hero-header .overlay {
   position: absolute;
   top: 0;
@@ -243,10 +226,10 @@ main{
 }
 
 .headline {
-  padding-left: 20px;
+  padding:0 auto;
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 0.5rem;
+  margin:auto ;
   justify-content: center;
   align-items: center;
   display:flex;
@@ -281,10 +264,10 @@ main{
 }
 .primary-content {
   font-size: 1.8rem;
-  margin-bottom: 32px;
+  margin-bottom:10px;
   overflow:hidden;
   font-weight: 600;
-  padding:30px;
+  padding:10px;
   justify-content: center;
 }
 .miniContent{
@@ -553,8 +536,8 @@ and (max-width: 480px) {
 }  
   
 .headline{
-  font-weight:600;
-  font-size:1.4rem;
+  font-weight:650;
+  font-size:1.3rem;
   padding:5px;
 }
   .primary-content {
@@ -590,7 +573,7 @@ main{
   width:100%;
   .section-a{
     box-sizing: border-box;
-    padding: 50px 10px 0 10px;
+    padding: 10px 10px 0 10px;
     align-items: center;
     justify-content: center;
     width:100%;

@@ -61,10 +61,10 @@ export default ({ children }) => {
       
       ></section>
       <section className="section-b"> 
-      <Banner/>
-      <Rightads/>
-      <div>
-      </div>
+         <Banner/>
+          <Rightads/>
+     
+         
       </section>
       </main>
       <div className="site-footer">
