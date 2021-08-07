@@ -9,6 +9,7 @@ import Footerads from "./footerads";
 import Rightads from "./rightads";
 import Logo from "./logo";
 import Banner from "./banners";
+import Messenger from "./messenger";
 
 
 
@@ -49,6 +50,8 @@ export default ({ children }) => {
     amzn_assoc_region = "US";
             </script>
         <script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
+      
+      
       </Helmet>
      <Navbar />
      </header>
@@ -61,11 +64,12 @@ export default ({ children }) => {
       <Subscribe/
       
       ></section>
-      <section className="section-b"> 
+      <section className="section-b">
+         
          <Banner/>
           <Rightads/>
      
-         
+       <Messenger/>
       </section>
       </main>
       <div className="site-footer">

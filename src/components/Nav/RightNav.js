@@ -11,14 +11,16 @@ const Ul = styled.ul`
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
+    padding:4px 0;
     right: 0;
-    height: 100%;
+    height: 100vh;
     width: 80%;
     z-index:150;
     transition: transform 0.3s ease-in-out;
     li {
       color: #fff;
-      margin:1px auto;
+      margin:0 auto;
+      
     }
   }
 `;
