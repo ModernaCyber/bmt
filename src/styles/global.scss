@@ -818,10 +818,12 @@ height:auto;
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  flex-wrap: nowrap;
   overflow: hidden;
   height: auto;
- 
   .footer-ads-cont{
+        display: flex;
+        height: auto;
         padding: 10px;
       div{
         margin: 0 10px 10px 10px;
@@ -832,9 +834,10 @@ height:auto;
           
         }
       } 
-       div:first-child{
+      /* div:first-child{
           margin-top: 10px;
         }
+        */
       } 
 
 }

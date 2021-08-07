@@ -38,7 +38,8 @@ export default ({ children }) => {
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content={data.site.siteMetadata.keywords}/>
-      
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       <meta name="fo-verify" content="56186df2-ebee-435f-bbe0-f42aa0c23db0"/>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9428197784618612" crossorigin="anonymous"></script>
             <script type="text/javascript">
