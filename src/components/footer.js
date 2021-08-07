@@ -34,7 +34,7 @@ const Footer = () => (
         </p>
         <p>
         <Link to='/privacy' style={{margin:" 4px 10px"}}>Privacy</Link> 
-        <Link to='/terms' style={{margin:" px 10px"}}>Terms</Link>
+        <Link to='/terms' style={{margin:" 4px 10px"}}>Terms</Link>
        
         </p>
         <p>
@@ -42,16 +42,17 @@ const Footer = () => (
         </p>
       </div>
     <div>   
-      <small >
-        <p className="float-right">
+     
+        <p>  <small 
+        className="float-right">
         <a href="#top"><span style={{color:"blue"
-      ,heigh:"10px"}}>&#160;&#8593;&#160;</span></a>
+      ,height:"10px"}}>&#160;&#8593;&#160;</span></a>
         BMWEMT, We are independent BMW Mechanics ,BMW fans. We are  dedicated 
         to BMW  owners from around the world in provision of expert maintenance practices 
         and Tips. 
-        </p>
+       </small> </p>
       
-       </small>
+       
 </div>
     
   </footer>

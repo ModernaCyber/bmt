@@ -32,6 +32,7 @@ export default ({ children }) => {
       <section className="section-a">
       <header className="site-header">
       <Helmet> 
+      <html lang="en" />  
       <meta name="viewport" content="width=device-width, initial-scale=.8"/>
       <meta charset="UTF-8"/>
       <meta name="description" content={data.site.siteMetadata.description} />
@@ -70,7 +71,7 @@ export default ({ children }) => {
       <div className="site-footer">
         <Footer/>  
         
-        <p style={{margin:"8px 30px"}}>
+        <div style={{margin:"8px 30px"}}>
         <Logo/>
            <Link to="/disclaimer" style={{margin:"0 8px"}}>Discraimer</Link>
         <small>BMWEMT is in no way affiliated or 
@@ -79,7 +80,7 @@ export default ({ children }) => {
         &copy; {new Date().getFullYear()} ModernaCyber &bull; Designed{" "}
        
         by <a href="https://modernacyber.com" target="blank">ModernaCyber</a>
-      </p>  
+      </div>  
  </div>
     </div>
   )

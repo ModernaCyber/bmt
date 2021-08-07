@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 
 const Logo = () => (
-<div className="logo" id="top">
+<div className="logo" >
   <Link to="/">
 
 

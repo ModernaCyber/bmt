@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /Buying a used bmw
+path: /Buying-a-used-bmw
 date: 2021-02-16T14:59:36.571Z
 title: Buying a used BMW
 thumbnail: /assets/used.webp
