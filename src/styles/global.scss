@@ -200,6 +200,8 @@ main{
    text-align: center;
    min-height: 350px;
    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
    border-radius: 18px;
    margin-bottom: 20px;
    margin-top: 60px;
@@ -606,11 +608,13 @@ and (max-width: 768px) {
     width:100%;
     padding:15px;
   }
-  .miniContent{
+ /* .miniContent{
     div{
+
+
     
     }
-  }  
+  }  */
   .grids {
     grid-template-columns: 1fr 1fr ;
   } 
@@ -815,19 +819,24 @@ height:auto;
   box-sizing: border-box;
   display: flex;
   overflow: hidden;
+  height: auto;
  
-  div{
-    margin: 0 10px 10px 10px;
-    height: auto;
-    width: auto;
-    iframe{
-      overflow: hidden;
-      
-    }
-  } 
-  div:first-child{
-    margin-top: 10px;
-  }
+  .footer-ads-cont{
+        padding: 10px;
+      div{
+        margin: 0 10px 10px 10px;
+        height: auto;
+        width: auto;
+        iframe{
+          overflow: hidden;
+          
+        }
+      } 
+       div:first-child{
+          margin-top: 10px;
+        }
+      } 
+
 }
 right-ads{
   box-sizing: border-box;
