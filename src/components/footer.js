@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Footer = () => (
   <footer className="footer">
     <div className="social"><div className="social-icons">
-        <div className="icons"><a href="https://facebook.com/" target="blank">
+        <div className="icons"><a href="https://www.facebook.com/bmwemt.info/" target="blank">
         <img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/facebook-512.png" alt="fb"></img>
         </a></div>
         <div className="icons"><a href="https://www.twitter.com/" target="blank">
@@ -18,9 +18,6 @@ const Footer = () => (
         </div>
         <div className="icons"><a href="https://www.linkedin.com/" target="blank">
         <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/51-linkedin-512.png" alt="In"></img>
-        </a></div>
-        <div className="icons"><a href="https://www.youtube.com/" target="blank">
-        <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/58-youtube-512.png" alt="youtube"></img>
         </a></div>
         </div>
         <div><small>Find Us on social Media Too</small></div>
