@@ -845,30 +845,17 @@ right-ads{
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  margin-top: auto;
-  
+  margin: 0 auto; 
   width:auto;
   height:auto;
   justify-content: center;
- 
   div{
     padding: 10px 5px;
+    margin: 10px auto;
     align-items: center;
     justify-content: center;
-    width: auto;
-    height: auto ;
-
     iframe{
       width: auto;
-    }
-    a{
-      text-decoration: none;
-      font-weight: 400;
-      margin: 20pxs auto;
-
-    }
-    a:hover{
-      font-weight: 600;
     }
   }
 }

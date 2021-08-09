@@ -60,7 +60,7 @@ module.exports = {
     // siteURL is a must for sitemap generation
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
-    {
+   /* {
       resolve: `gatsby-plugin-facebook-customer-chat`,
       options: {
         sdk: {
@@ -74,6 +74,6 @@ module.exports = {
         }
       },
     },
-   
+   */
   ],
 }

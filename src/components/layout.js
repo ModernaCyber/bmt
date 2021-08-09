@@ -10,6 +10,7 @@ import Rightads from "./rightads";
 import Logo from "./logo";
 import Banner from "./banners";
 import Messenger from "./messenger";
+import Media from "./media";
 
 
 
@@ -49,13 +50,9 @@ export default ({ children }) => {
     amzn_assoc_marketplace = "amazon";
     amzn_assoc_region = "US";
             </script>
-        <script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
-        <script type="text/javascript">
-    window._mNHandle = window._mNHandle || {};
-    window._mNHandle.queue = window._mNHandle.queue || [];
-    medianet_versionId = "3121199";
-</script>
-<script src="https://contextual.media.net/dmedianet.js?cid=8CUXS893O" async="async"></script>
+      <script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
+      <script src="https://contextual.media.net/dmedianet.js?cid=8CUXS893O" async="async"></script>
+
 
 
       
@@ -72,10 +69,12 @@ export default ({ children }) => {
       
       ></section>
       <section className="section-b">
-         
-         <Banner/>
-          <Rightads/>
+        <Banner/>
+        <Rightads/>
+
       </section>
+      <Media/>
+      <Messenger/>
       </main>
       <div className="site-footer">
         <Footer/>  
