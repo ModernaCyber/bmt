@@ -7,12 +7,12 @@ const Footer = () => (
         <div className="icons"><a href="https://www.facebook.com/bmwemt.info/" target="blank">
         <img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/facebook-512.png" alt="fb"></img>
         </a></div>
-        <div className="icons"><a href="https://www.twitter.com/" target="blank">
+        <div className="icons"><a href="https://twitter.com/CyberModerna" target="blank">
         <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-512.png" alt="twitter"></img>
         </a>
         </div>
         <div className="icons">
-        <a href="https://www.instagram.com/" target="blank">
+        <a href="https://www.instagram.com/bmwemt/" target="blank">
         <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" alt="IG"></img>
         </a>
         </div>
