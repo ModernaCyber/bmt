@@ -1,11 +1,10 @@
 import React,{Component} from "react";
-import ReactDOM from "react-dom";
-
 
 class Media extends Component {
   componentDidMount() {
     const script = document.createElement("script");
     script.async = true;
+
     script.src = "../scripts/medianet.js";
     this.div.appendChild(script);
   }
