@@ -4,6 +4,8 @@ path: /optimize-for-speed
 date: 2021-03-20T14:59:36.571Z
 title: Optimize your car for speed
 thumbnail: /assets/main.webp
+metaDescription: df sdf df
+keywords: bmw ,bmw i8
 ---
 #  What's the best way to improve my car performance?
 Many of us are always looking for ways to enhance our cars' performance. BMW being not one like this to ignore its customer needs, have recently taken to production of the BMW M Performance Parts. You can easily upgrade your M car with parts directly from the factory without voiding the warranty.

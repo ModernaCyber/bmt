@@ -4,6 +4,8 @@ path: /softwares-bmw-remote-softwares-update
 date: 2021-05-23T14:59:36.571Z
 title: Remote software update
 thumbnail: /assets/remote.jpg
+metaDescription: df sdf df
+keywords: bmw ,bmw i8
 ---
 
 ## Remote software update

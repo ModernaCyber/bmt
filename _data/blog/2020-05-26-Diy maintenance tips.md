@@ -4,6 +4,8 @@ path: /Diy-bmw-maintenance-tips
 date: 2021-05-26T12:12:25.364Z
 title: 'DIY Bmw maintenance Tips'
 thumbnail: /assets/image202.jpg
+metaDescription: df sdf df
+keywords: bmw ,bmw i8
 ---
 
 

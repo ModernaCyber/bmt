@@ -1,10 +1,15 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 
 const About_us = () => (
   <Layout>
+    <Helmet> 
+    <title>bmwemt about-us</title>
+    <meta charset="UTF-8"/>
+    </Helmet>
     <div className="post-thumbnail" style={{ backgroundImage: `url('https://image.shutterstock.com/image-photo/novosibirsk-russia-october-16-2020-600w-1839033184.jpg')`, margin:"60px 15px 15px 0" }}>
       <h1>HI!</h1>
       <h1> WE ARE BMWEMT TEAM </h1>

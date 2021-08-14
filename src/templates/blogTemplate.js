@@ -14,6 +14,7 @@ export default function Template({
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
+        <meta name="keywords" content={frontmatter.keywords} />
       </Helmet>
       <div className="blog-post-container">
         <article className="post">

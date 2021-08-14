@@ -19,13 +19,11 @@ const ModelsPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title}</title>
-         <meta charset="UTF-8"/>
+        <title>{site.siteMetadata.title+ " models"}</title>
+        <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.description} />
-        <meta name="keywords" content={site.siteMetadata.keywords}/>
-        <meta name="author" content={site.siteMetadata.author}/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
+        <meta name="keywords" content={site.siteMetadata.models.keywords}/>
+        <meta name="author" content={site.siteMetadata.author}/>        
         <script type="text/javascript">
 amzn_assoc_tracking_id = "bmwemt-20";
 amzn_assoc_ad_mode = "manual";

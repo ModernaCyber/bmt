@@ -11,30 +11,37 @@
   },
   "bikes": {
     "title": "BMW BICYCLES",
-    "description": "EXPLORE ALL! "
+    "description": "EXPLORE ALL! ",
+    "keywords":"bmw motorcycles motorbikes bikes "
   },
   "cycles": {
     "title": "BMW MOTORCYCLES",
-    "description": "EXPLORE ALL MODELS AT A GLANCE!"
+    "description": "EXPLORE ALL MODELS AT A GLANCE!",
+    "keywords":"bmw motorcycles bikes bicycles"
   },
   "courses": {
     "title": "BMW COURSES",
-    "description": "DISCOVER FREE ONLINE COURSES IN THE BMW COMMUNITY"
+    "description": "DISCOVER FREE ONLINE COURSES IN THE BMW COMMUNITY",
+    "keywords":"bmw diagnosis diagnostics softwares learn courses test"
   },
   "dashboard": {
     "title": "ALL BMW DASHBOARDS",
-    "description": " EXPLORE ALL BMW MODELS DASHBOARD  TO ENJOY A SAFE AND CAREFREE DRIVING!"
+    "description": " EXPLORE ALL BMW MODELS DASHBOARD  TO ENJOY A SAFE AND CAREFREE DRIVING!",
+    "keywords":"sbmw dashboard lights"
   },
   "models": {
     "title": "ALL BMW MODELS",
-    "description": "GET INDEPTH GUIDE TO ALL MODELS, FEATURES AND PRICES"
+    "description": "GET INDEPTH GUIDE TO ALL MODELS, FEATURES AND PRICES",
+    "keywords":"bmw models "
   },
   "software": {
     "title": "BMW SOFTWARES",
-    "description": " ENSURE YOUR BMW ALWAYS KEEPS PACE WITH THE LATEST UPDATES"
+    "description": " ENSURE YOUR BMW ALWAYS KEEPS PACE WITH THE LATEST UPDATES",
+    "keywords":"bmw softwares remote update maps idrive"
   },
   "spares": {
     "title": "BMW SPAREPARTS & ACCESSORIES",
-    "description": "EXPLORE ALL BMW SPAREPARTS AND ACCESSORIES FOR YOUR MODEL"
+    "description": "EXPLORE ALL BMW SPAREPARTS AND ACCESSORIES FOR YOUR MODEL",
+    "keywords":"bmw spareparts accessories"
   }
 }

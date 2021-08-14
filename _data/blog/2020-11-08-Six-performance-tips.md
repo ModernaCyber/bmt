@@ -4,6 +4,8 @@ path: /six-performance-improvement-tips
 date: 2020-11-08T14:59:36.571Z
 title: Six performance improvement Tips
 thumbnail: /assets/01_hero_3.jpg
+metaDescription: df sdf df
+keywords: bmw ,bmw i8
 ---
 
 

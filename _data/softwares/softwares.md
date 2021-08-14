@@ -4,6 +4,8 @@ path: /softwares-bmw-softwares
 date: 2021-05-23T14:59:36.571Z
 title: BMW software/firmware
 thumbnail: /assets/remote1.jpg
+metaDescription: df sdf df
+keywords: bmw ,bmw i8
 ---
 ## BMW Software
 
