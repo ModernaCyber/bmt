@@ -22,7 +22,7 @@ const SoftwaresPage = ({
       <Helmet>
         <title>{site.siteMetadata.title + " all bmw softwares"}</title>
         <meta charset="UTF-8"/>
-        <meta name="description" content={site.siteMetadata.description} />
+        <meta name="description" content={site.siteMetadata.software.description} />
         <meta name="keywords" content={site.siteMetadata.software.keywords}/>
         <meta name="author" content={site.siteMetadata.author}/>
         <script data-ad-client="ca-pub-9428197784618612" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -80,9 +80,14 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        description
+        author
+         software {
+          description
+          keywords
+          title
+        }
       }
-    }
+  }
     allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(softwares)/"}}) {
       edges {
         node {

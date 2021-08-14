@@ -21,7 +21,7 @@ const ModelsPage = ({
       <Helmet>
         <title>{site.siteMetadata.title+ " models"}</title>
         <meta charset="UTF-8"/>
-        <meta name="description" content={site.siteMetadata.description} />
+        <meta name="description" content={site.siteMetadata.models.description} />
         <meta name="keywords" content={site.siteMetadata.models.keywords}/>
         <meta name="author" content={site.siteMetadata.author}/>        
         <script type="text/javascript">
@@ -71,9 +71,13 @@ export const pageQuery = graphql`
   query modelsPageQuery {
     site {
       siteMetadata {
-        title
-        description
-      }
+          title
+          author
+          models {
+            description
+            keywords
+          }
+        }
     }
     allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(models)/"}}) {
       edges {
