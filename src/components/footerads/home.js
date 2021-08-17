@@ -1,47 +1,32 @@
-/*
-import React, { Component } from "react";
-import Slider from "react-slick";
-export default class Home extends Component {
-  render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
-    return (
-    
-     <Slider {...settings}>
-      
-     </Slider>
-   
-  
-     );
-}
-}
-*/
+import SimpleImageSlider from "react-simple-image-slider";
+
 import React from 'react';
+
+const images = [
+  { url: "https://th.bing.com/th/id/OIP.mTe3gWc9Ak3ojKDftIIUZQHaE6?pid=ImgDet&rs=1" },
+  { url: "https://www.streetbikerider.us/BMW/R1100-R1200-Models/BMW-R1100-R1200-Models-76271-GP.jpg" },
+  { url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYri-22QpI7Kmzv2cYSW7Hb4DN-_87blAcig&usqp=CAU" },
+  { url: "https://th.bing.com/th/id/R.d16ba8c9c7a0460b0634268e13bae001?rik=ZB%2bfpBvmFzJIkQ&pid=ImgRaw&r=0"},
+  { url: "https://di-uploads-pod29.dealerinspire.com/porscheontario1/uploads/2020/07/How-Do-I-Return-My-Porsche-Lease.jpg"},
+];
+
+
 const Home = () => {
   return ( 
     <div className="footer-ads">
     <div className="footer-ads-cont">
-<div><iframe title="footerads1" style={{width:"120px",height:"240px", marginWidth:"0", marginHeight:"0", scrolling:"no", frameBorder:"0"}} src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=bmwemt-20&marketplace=amazon&amp;region=US&placement=B08BZNNY2T&asins=B08BZNNY2T&linkId=95b46768cc6fdb496cb048a0e3a03f65&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe></div>
-<div><iframe title="footerads2" style={{width:"120px",height:"240px", marginWidth:"0", marginHeight:"0", scrolling:"no", frameBorder:"0"}} src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=bmwemt-20&marketplace=amazon&amp;region=US&placement=B085ZMMP55&asins=B085ZMMP55&linkId=c80a7a462312f221d80c07b9c4678b1d&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe></div>
-<div><iframe title="footerads3"  style={{width:"120px",height:"240px", marginWidth:"0", marginHeight:"0", scrolling:"no", frameBorder:"0"}} src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=bmwemt-20&marketplace=amazon&amp;region=US&placement=B00KTIUG5C&asins=B00KTIUG5C&linkId=f22639c740d6ccf46f5635475757bd91&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe></div>
-                
-<div><iframe title="footerads4" style={{width:"120px",height:"240px", marginWidth:"0", marginHeight:"0", scrolling:"no", frameBorder:"0"}} src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=bmwemt-20&marketplace=amazon&amp;region=US&placement=B08K8VXH3W&asins=B08K8VXH3W&linkId=21a185d18ce3d22c44e56109dfa233b9&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe></div>
 
-<div><iframe title="footerads5" style={{width:"120px",height:"240px", marginWidth:"0", marginHeight:"0", scrolling:"no", frameBorder:"0"}} src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=bmwemt-20&marketplace=amazon&amp;region=US&placement=B08K73SNWS&asins=B08K73SNWS&linkId=784b1e1eeada45ba0409015cd7e97b31&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe></div> 
+    <SimpleImageSlider
+        style={{ margin: '0 auto', marginTop: '50px' }}
+        width={400}
+        height={300}
+        images={images}
+        showBullets={true}
+        showNavs={true}
+      />
+    
     </div>
-
-      <div className="footer-ads-cont"></div>
-  </div> );
+     </div> );
 }
  
 export default Home;

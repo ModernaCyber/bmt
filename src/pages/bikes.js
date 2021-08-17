@@ -19,7 +19,7 @@ const BikesPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title + " bikes"}</title>
+        <title>{site.siteMetadata.bikes.title }</title>
         <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.bikes.description} />
         <meta name="keywords" content={site.siteMetadata.bikes.keywords}/>

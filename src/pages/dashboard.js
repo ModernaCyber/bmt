@@ -20,7 +20,7 @@ const DashboardPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title + " dashboard"}</title>
+        <title>{site.siteMetadata.dashboard.title}</title>
          <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.dashboard.description} />
         <meta name="keywords" content={site.siteMetadata.dashboard.keywords}/>

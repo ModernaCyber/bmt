@@ -31,6 +31,7 @@
     "react-helmet": "^5.2.1",
     "react-messenger-customer-chat": "^0.8.0",
     "react-router-dom": "^5.2.0",
+    "react-simple-image-slider": "^2.1.2",
     "react-slick": "^0.28.1",
     "styled-components": "^5.3.0"
   },
@@ -44,11 +45,20 @@
     "Bmw maintenance tips",
     "Bmw performance tuning",
     "Bmw news",
+    "Bmw software updates",
+    "Bmw maps updates",
+    "Bmw dashboard lights",
+    "Bmw Models",
+    "bmw Bikes",
+    "Bmw spares",
+    "Bmw accessories",
+    "Bmw diagnosis",
+    "Bmw courses",
     "Bmw updates"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KASH008/bmt.git"
+    "url": "git+https://github.com/ModernaCyber/bmt.git"
   },
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",

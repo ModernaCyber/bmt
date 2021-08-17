@@ -23,7 +23,7 @@ const CoursePage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title + " courses"} </title>
+        <title>{site.siteMetadata.courses.title} </title>
         <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.courses.description} />
         <meta name="keywords" content={site.siteMetadata.courses.keywords}/>

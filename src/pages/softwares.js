@@ -20,7 +20,7 @@ const SoftwaresPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title + " all bmw softwares"}</title>
+        <title>{site.siteMetadata.software.title}</title>
         <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.software.description} />
         <meta name="keywords" content={site.siteMetadata.software.keywords}/>

@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet"
 const About_us = () => (
   <Layout>
     <Helmet> 
-    <title>bmwemt about-us</title>
+    <title>bmwemt about-us page</title>
     <meta charset="UTF-8"/>
     </Helmet>
     <div className="post-thumbnail" style={{ backgroundImage: `url('https://image.shutterstock.com/image-photo/novosibirsk-russia-october-16-2020-600w-1839033184.jpg')`, margin:"60px 15px 15px 0" }}>

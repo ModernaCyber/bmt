@@ -21,7 +21,7 @@ const SparesPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title + " spareparts and accessories"}</title>
+        <title>{site.siteMetadata.spares.title}</title>
          <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.spares.description} />
         <meta name="keywords" content={site.siteMetadata.spares.keywords}/>

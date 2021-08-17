@@ -20,7 +20,7 @@ const CyclePage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title + " cycles"}</title>
+        <title>{site.siteMetadata.cycles.title}</title>
          <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.cycles.description} />
         <meta name="keywords" content={site.siteMetadata.cycles.keywords}/>

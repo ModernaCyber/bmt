@@ -1,7 +1,7 @@
 backend:
   name: github
   # change repo to your git repository url
-  repo: https://github.com/ModernaCyber/bmt.git
+  repo: https://github.com/ModernaCyber/bmt
   branch: main
 
 media_folder: static/assets

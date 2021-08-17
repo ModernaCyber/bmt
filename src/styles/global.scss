@@ -816,30 +816,17 @@ height:auto;
 }
 .footer-ads{
   width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: hidden;
+  box-sizing: border-box; 
   height: auto;
-  .footer-ads-cont{
-        display: flex;
-        height: auto;
-        padding: 10px;
-      div{
-        margin: 0 10px 10px 10px;
-        height: auto;
-        width: auto;
-        iframe{
-          overflow: hidden;
-          
-        }
-      } 
-      /* div:first-child{
-          margin-top: 10px;
-        }
-        */
-      } 
+  justify-content: center;
+  align-items: center;
 
+  .footer-ads-cont{
+        justify-content: center;
+        align-items: center;
+        padding: 0; 
+        margin: 0 auto;
+  }
 }
 .right-ads{
   box-sizing: border-box;

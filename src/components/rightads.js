@@ -15,11 +15,11 @@ const Rightads = (
           <Banner/>
         </div>
         <div><iframe title="rightads2" src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=12&l=ez&f=ifr&linkID=6d26e7a6cba61d3b77d9141d8d3e29f9&t=bmwemt-20&tracking_id=bmwemt-20" 
-        width="280" height="250" scrolling="no" border="0" marginwidth="5" 
+        width="280" height="250" scrolling="no" border="0" marginWidth="5" 
         style={{border:"none" ,frameBorder:"0"}}> 
         </iframe></div>
         
-        <div><iframe title="rightads1" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbmwemt.info%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=375449370627659" style={{border:"none" ,overflow:"hidden",width:"100%", height:"70vh",maxHeight:"500" ,maxWidth:"290" }} scrolling="no" frameborder="0" allowfullscreen="true" 
+        <div><iframe title="rightads1" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbmwemt.info%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=375449370627659" style={{border:"none" ,overflow:"hidden",width:"100%", height:"70vh",maxHeight:"500" ,maxWidth:"290" }} scrolling="no" frameBorder="0" allowFullScreen={true} 
        allow="autoplay; clipboardWrite; encryptedMedia; pictureInPicture; webShare"></iframe></div>
        
        

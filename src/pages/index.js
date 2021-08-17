@@ -19,7 +19,7 @@ const IndexPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title}</title>
+        <title>{site.siteMetadata.home.title}</title>
         <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.description} />
         <meta name="keywords" content={site.siteMetadata.keywords}/>
@@ -40,8 +40,13 @@ export const pageQuery = graphql`
   query indexPageQuery {
     site {
       siteMetadata {
-        title
         description
+        author
+        keywords
+        home {
+          description
+          title
+        }
       }
     }
     allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(blog)/"}}) {

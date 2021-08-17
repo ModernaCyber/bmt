@@ -19,7 +19,7 @@ const ModelsPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title+ " models"}</title>
+        <title>{site.siteMetadata.models.title}</title>
         <meta charset="UTF-8"/>
         <meta name="description" content={site.siteMetadata.models.description} />
         <meta name="keywords" content={site.siteMetadata.models.keywords}/>
@@ -76,6 +76,7 @@ export const pageQuery = graphql`
           models {
             description
             keywords
+            title
           }
         }
     }
