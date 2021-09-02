@@ -16,6 +16,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-social9-socialshare`,
+      options: {
+        content:  `2cde1de360f54e5686ac45dff07cc28f`,
+        async:  true,
+        defer:  true
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [{
