@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-delog",
-  "description": "A simplified blog for developers and designer. This starter built with Gatsby and Netlify CMS",
-  "author": "W3Layouts Team <info@w3layouts.com>",
+  "name": "Bmw-Essential-Maintenance-Tips",
+  "description": "A simplified blog for Bmw owners, Fans and enthusiasts who are inclined to explore latest updates, news and performance tuning tips.",
+  "author": "modernacyber <modernacyber@gmail.com>",
   "version": "1.6.0",
   "license": "MIT",
   "bugs": {
@@ -10,7 +10,9 @@
   "dependencies": {
     "gatsby": "^2.21.0",
     "gatsby-plugin-dark-mode": "^1.1.1",
+    "gatsby-plugin-facebook-customer-chat": "^1.0.2",
     "gatsby-plugin-google-analytics": "^2.1.36",
+    "gatsby-plugin-image": "^1.10.1",
     "gatsby-plugin-manifest": "^2.4.1",
     "gatsby-plugin-netlify-cms": "^4.1.38",
     "gatsby-plugin-offline": "^3.2.0",
@@ -22,23 +24,41 @@
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-remark": "^2.6.53",
     "netlify-cms-app": "^2.11.13",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "prismjs": "^1.24.1",
-    "react": "^16.12.0",
+    "react": "^17.0.1",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-messenger-customer-chat": "^0.8.0",
+    "react-router-dom": "^5.2.0",
+    "react-simple-image-slider": "^2.1.2",
+    "react-slick": "^0.28.1",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/W3Layouts/gatsby-starter-delog#readme",
+  "homepage": "https://bmwemt.info",
   "keywords": [
-    "gatsby",
-    "netlify cms"
+    "Bmw",
+    "Bmw maintenance",
+    "Bmw maintenance tips",
+    "Bmw performance tuning",
+    "Bmw news",
+    "Bmw software updates",
+    "Bmw maps updates",
+    "Bmw dashboard lights",
+    "Bmw Models",
+    "bmw Bikes",
+    "Bmw spares",
+    "Bmw accessories",
+    "Bmw diagnosis",
+    "Bmw courses",
+    "Bmw updates"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/W3Layouts/gatsby-starter-delog.git"
+    "url": "https://github.com/ModernaCyber/bmt.git"
   },
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
