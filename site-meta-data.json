@@ -2,46 +2,8 @@
   "title": "Bmwemt",
   "siteUrl": "https://bmwemt.info",
   "description": "Explore all BMW maintenance tips, Models, Software and Maps updates, plus massive solutions to different diagnostics Problems... Get it all from an expert!",
-  "keywords": "bmw  cars , bmw maintenance , bmw features, bmw prices, bmw models,bmw accessories,bmw bikes,bmw softwares, diagnostic softwares ,bmw news",
-  "author": "ModernaCyber",
   "home": {
     "title": "BMW ESSENTIAL MAINTENANCE TIPS",
-    "description": "EXPLORE ALL BMW MAINTENANCE TIPS, MODELS, SOFTWARE & MAPS UPDATE, PLUS MASSIVE SOLUTIONS TO DIFFERENT DIAGNOSTICS PROBLEMS...! GET IT ALL FROM AN EXPERT!",
-    "description-home": "BUYING A BMW IS AND WILL ALWAYS BE CHEAP, MAINTAINING ONE IS NOT ,BUT IT DOESN`T HAVE TO BE. GET THE BEST MAINTAINANCE TIPS , AND SAVE ON THAT TRIP, TO THE WORKSHOP!!"
-  },
-  "bikes": {
-    "title": "BMW BICYCLES",
-    "description": "EXPLORE ALL BMW BIKES! ",
-    "keywords":"bmw motorcycles motorbikes bikes "
-  },
-  "cycles": {
-    "title": "BMW MOTORCYCLES",
-    "description": "EXPLORE ALL MODELS AT A GLANCE!",
-    "keywords":"bmw motorcycles bikes bicycles"
-  },
-  "courses": {
-    "title": "BMW COURSES",
-    "description": "DISCOVER FREE ONLINE COURSES IN THE BMW COMMUNITY",
-    "keywords":"bmw diagnosis diagnostics softwares learn courses test"
-  },
-  "dashboard": {
-    "title": "ALL BMW DASHBOARDS",
-    "description": " EXPLORE ALL BMW MODELS DASHBOARD  TO ENJOY A SAFE AND CAREFREE DRIVING!",
-    "keywords":"sbmw dashboard lights"
-  },
-  "models": {
-    "title": "ALL BMW MODELS",
-    "description": "GET INDEPTH GUIDE TO ALL MODELS, FEATURES AND PRICES",
-    "keywords":"bmw models "
-  },
-  "software": {
-    "title": "BMW SOFTWARES",
-    "description": " ENSURE YOUR BMW ALWAYS KEEPS PACE WITH THE LATEST UPDATES",
-    "keywords":"bmw softwares remote update maps idrive"
-  },
-  "spares": {
-    "title": "BMW SPAREPARTS & ACCESSORIES",
-    "description": "EXPLORE ALL BMW SPAREPARTS AND ACCESSORIES FOR YOUR MODEL",
-    "keywords":"bmw spareparts accessories"
+    "description": "EXPLORE ALL BMW MAINTENANCE TIPS, MODELS, SOFTWARE & MAPS UPDATE, PLUS MASSIVE SOLUTIONS TO DIFFERENT DIAGNOSTICS PROBLEMS...! GET IT ALL FROM THE EXPERT!"
   }
 }
